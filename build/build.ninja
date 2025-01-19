@@ -12,7 +12,7 @@
 
 # =============================================================================
 # Project: GameOfLife
-# Configurations: 
+# Configurations: Debug
 # =============================================================================
 
 #############################################
@@ -20,6 +20,11 @@
 
 ninja_required_version = 1.5
 
+
+#############################################
+# Set configuration variable for custom commands.
+
+CONFIGURATION = Debug
 # =============================================================================
 # Include auxiliary files.
 
@@ -44,51 +49,51 @@ cmake_ninja_workdir = C$:/Users/rando/Desktop/projects/game_of_life/build/
 
 build cmake_object_order_depends_target_imgui: phony || .
 
-build CMakeFiles/imgui.dir/libs/imgui/backends/imgui_impl_glfw.cpp.obj: CXX_COMPILER__imgui_unscanned_ C$:/Users/rando/Desktop/projects/game_of_life/libs/imgui/backends/imgui_impl_glfw.cpp || cmake_object_order_depends_target_imgui
+build CMakeFiles/imgui.dir/libs/imgui/backends/imgui_impl_glfw.cpp.obj: CXX_COMPILER__imgui_unscanned_Debug C$:/Users/rando/Desktop/projects/game_of_life/libs/imgui/backends/imgui_impl_glfw.cpp || cmake_object_order_depends_target_imgui
   DEP_FILE = CMakeFiles\imgui.dir\libs\imgui\backends\imgui_impl_glfw.cpp.obj.d
-  FLAGS = -std=gnu++17
+  FLAGS = -g -O0 -g -std=gnu++17
   INCLUDES = -IC:/Users/rando/Desktop/projects/game_of_life/libs/glfw/include -IC:/Users/rando/Desktop/projects/game_of_life/libs/imgui -IC:/Users/rando/Desktop/projects/game_of_life/libs/imgui/backends
   OBJECT_DIR = CMakeFiles\imgui.dir
   OBJECT_FILE_DIR = CMakeFiles\imgui.dir\libs\imgui\backends
 
-build CMakeFiles/imgui.dir/libs/imgui/backends/imgui_impl_opengl3.cpp.obj: CXX_COMPILER__imgui_unscanned_ C$:/Users/rando/Desktop/projects/game_of_life/libs/imgui/backends/imgui_impl_opengl3.cpp || cmake_object_order_depends_target_imgui
+build CMakeFiles/imgui.dir/libs/imgui/backends/imgui_impl_opengl3.cpp.obj: CXX_COMPILER__imgui_unscanned_Debug C$:/Users/rando/Desktop/projects/game_of_life/libs/imgui/backends/imgui_impl_opengl3.cpp || cmake_object_order_depends_target_imgui
   DEP_FILE = CMakeFiles\imgui.dir\libs\imgui\backends\imgui_impl_opengl3.cpp.obj.d
-  FLAGS = -std=gnu++17
+  FLAGS = -g -O0 -g -std=gnu++17
   INCLUDES = -IC:/Users/rando/Desktop/projects/game_of_life/libs/glfw/include -IC:/Users/rando/Desktop/projects/game_of_life/libs/imgui -IC:/Users/rando/Desktop/projects/game_of_life/libs/imgui/backends
   OBJECT_DIR = CMakeFiles\imgui.dir
   OBJECT_FILE_DIR = CMakeFiles\imgui.dir\libs\imgui\backends
 
-build CMakeFiles/imgui.dir/libs/imgui/imgui.cpp.obj: CXX_COMPILER__imgui_unscanned_ C$:/Users/rando/Desktop/projects/game_of_life/libs/imgui/imgui.cpp || cmake_object_order_depends_target_imgui
+build CMakeFiles/imgui.dir/libs/imgui/imgui.cpp.obj: CXX_COMPILER__imgui_unscanned_Debug C$:/Users/rando/Desktop/projects/game_of_life/libs/imgui/imgui.cpp || cmake_object_order_depends_target_imgui
   DEP_FILE = CMakeFiles\imgui.dir\libs\imgui\imgui.cpp.obj.d
-  FLAGS = -std=gnu++17
+  FLAGS = -g -O0 -g -std=gnu++17
   INCLUDES = -IC:/Users/rando/Desktop/projects/game_of_life/libs/glfw/include -IC:/Users/rando/Desktop/projects/game_of_life/libs/imgui -IC:/Users/rando/Desktop/projects/game_of_life/libs/imgui/backends
   OBJECT_DIR = CMakeFiles\imgui.dir
   OBJECT_FILE_DIR = CMakeFiles\imgui.dir\libs\imgui
 
-build CMakeFiles/imgui.dir/libs/imgui/imgui_demo.cpp.obj: CXX_COMPILER__imgui_unscanned_ C$:/Users/rando/Desktop/projects/game_of_life/libs/imgui/imgui_demo.cpp || cmake_object_order_depends_target_imgui
+build CMakeFiles/imgui.dir/libs/imgui/imgui_demo.cpp.obj: CXX_COMPILER__imgui_unscanned_Debug C$:/Users/rando/Desktop/projects/game_of_life/libs/imgui/imgui_demo.cpp || cmake_object_order_depends_target_imgui
   DEP_FILE = CMakeFiles\imgui.dir\libs\imgui\imgui_demo.cpp.obj.d
-  FLAGS = -std=gnu++17
+  FLAGS = -g -O0 -g -std=gnu++17
   INCLUDES = -IC:/Users/rando/Desktop/projects/game_of_life/libs/glfw/include -IC:/Users/rando/Desktop/projects/game_of_life/libs/imgui -IC:/Users/rando/Desktop/projects/game_of_life/libs/imgui/backends
   OBJECT_DIR = CMakeFiles\imgui.dir
   OBJECT_FILE_DIR = CMakeFiles\imgui.dir\libs\imgui
 
-build CMakeFiles/imgui.dir/libs/imgui/imgui_draw.cpp.obj: CXX_COMPILER__imgui_unscanned_ C$:/Users/rando/Desktop/projects/game_of_life/libs/imgui/imgui_draw.cpp || cmake_object_order_depends_target_imgui
+build CMakeFiles/imgui.dir/libs/imgui/imgui_draw.cpp.obj: CXX_COMPILER__imgui_unscanned_Debug C$:/Users/rando/Desktop/projects/game_of_life/libs/imgui/imgui_draw.cpp || cmake_object_order_depends_target_imgui
   DEP_FILE = CMakeFiles\imgui.dir\libs\imgui\imgui_draw.cpp.obj.d
-  FLAGS = -std=gnu++17
+  FLAGS = -g -O0 -g -std=gnu++17
   INCLUDES = -IC:/Users/rando/Desktop/projects/game_of_life/libs/glfw/include -IC:/Users/rando/Desktop/projects/game_of_life/libs/imgui -IC:/Users/rando/Desktop/projects/game_of_life/libs/imgui/backends
   OBJECT_DIR = CMakeFiles\imgui.dir
   OBJECT_FILE_DIR = CMakeFiles\imgui.dir\libs\imgui
 
-build CMakeFiles/imgui.dir/libs/imgui/imgui_tables.cpp.obj: CXX_COMPILER__imgui_unscanned_ C$:/Users/rando/Desktop/projects/game_of_life/libs/imgui/imgui_tables.cpp || cmake_object_order_depends_target_imgui
+build CMakeFiles/imgui.dir/libs/imgui/imgui_tables.cpp.obj: CXX_COMPILER__imgui_unscanned_Debug C$:/Users/rando/Desktop/projects/game_of_life/libs/imgui/imgui_tables.cpp || cmake_object_order_depends_target_imgui
   DEP_FILE = CMakeFiles\imgui.dir\libs\imgui\imgui_tables.cpp.obj.d
-  FLAGS = -std=gnu++17
+  FLAGS = -g -O0 -g -std=gnu++17
   INCLUDES = -IC:/Users/rando/Desktop/projects/game_of_life/libs/glfw/include -IC:/Users/rando/Desktop/projects/game_of_life/libs/imgui -IC:/Users/rando/Desktop/projects/game_of_life/libs/imgui/backends
   OBJECT_DIR = CMakeFiles\imgui.dir
   OBJECT_FILE_DIR = CMakeFiles\imgui.dir\libs\imgui
 
-build CMakeFiles/imgui.dir/libs/imgui/imgui_widgets.cpp.obj: CXX_COMPILER__imgui_unscanned_ C$:/Users/rando/Desktop/projects/game_of_life/libs/imgui/imgui_widgets.cpp || cmake_object_order_depends_target_imgui
+build CMakeFiles/imgui.dir/libs/imgui/imgui_widgets.cpp.obj: CXX_COMPILER__imgui_unscanned_Debug C$:/Users/rando/Desktop/projects/game_of_life/libs/imgui/imgui_widgets.cpp || cmake_object_order_depends_target_imgui
   DEP_FILE = CMakeFiles\imgui.dir\libs\imgui\imgui_widgets.cpp.obj.d
-  FLAGS = -std=gnu++17
+  FLAGS = -g -O0 -g -std=gnu++17
   INCLUDES = -IC:/Users/rando/Desktop/projects/game_of_life/libs/glfw/include -IC:/Users/rando/Desktop/projects/game_of_life/libs/imgui -IC:/Users/rando/Desktop/projects/game_of_life/libs/imgui/backends
   OBJECT_DIR = CMakeFiles\imgui.dir
   OBJECT_FILE_DIR = CMakeFiles\imgui.dir\libs\imgui
@@ -101,7 +106,8 @@ build CMakeFiles/imgui.dir/libs/imgui/imgui_widgets.cpp.obj: CXX_COMPILER__imgui
 #############################################
 # Link the static library libimgui.a
 
-build libimgui.a: CXX_STATIC_LIBRARY_LINKER__imgui_ CMakeFiles/imgui.dir/libs/imgui/backends/imgui_impl_glfw.cpp.obj CMakeFiles/imgui.dir/libs/imgui/backends/imgui_impl_opengl3.cpp.obj CMakeFiles/imgui.dir/libs/imgui/imgui.cpp.obj CMakeFiles/imgui.dir/libs/imgui/imgui_demo.cpp.obj CMakeFiles/imgui.dir/libs/imgui/imgui_draw.cpp.obj CMakeFiles/imgui.dir/libs/imgui/imgui_tables.cpp.obj CMakeFiles/imgui.dir/libs/imgui/imgui_widgets.cpp.obj
+build libimgui.a: CXX_STATIC_LIBRARY_LINKER__imgui_Debug CMakeFiles/imgui.dir/libs/imgui/backends/imgui_impl_glfw.cpp.obj CMakeFiles/imgui.dir/libs/imgui/backends/imgui_impl_opengl3.cpp.obj CMakeFiles/imgui.dir/libs/imgui/imgui.cpp.obj CMakeFiles/imgui.dir/libs/imgui/imgui_demo.cpp.obj CMakeFiles/imgui.dir/libs/imgui/imgui_draw.cpp.obj CMakeFiles/imgui.dir/libs/imgui/imgui_tables.cpp.obj CMakeFiles/imgui.dir/libs/imgui/imgui_widgets.cpp.obj
+  LANGUAGE_COMPILE_FLAGS = -g -O0 -g
   OBJECT_DIR = CMakeFiles\imgui.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
@@ -117,10 +123,17 @@ build libimgui.a: CXX_STATIC_LIBRARY_LINKER__imgui_ CMakeFiles/imgui.dir/libs/im
 
 build cmake_object_order_depends_target_GameOfLife: phony || cmake_object_order_depends_target_glfw cmake_object_order_depends_target_imgui
 
-build CMakeFiles/GameOfLife.dir/src/main.cpp.obj: CXX_COMPILER__GameOfLife_unscanned_ C$:/Users/rando/Desktop/projects/game_of_life/src/main.cpp || cmake_object_order_depends_target_GameOfLife
+build CMakeFiles/GameOfLife.dir/src/main.cpp.obj: CXX_COMPILER__GameOfLife_unscanned_Debug C$:/Users/rando/Desktop/projects/game_of_life/src/main.cpp || cmake_object_order_depends_target_GameOfLife
   DEP_FILE = CMakeFiles\GameOfLife.dir\src\main.cpp.obj.d
-  FLAGS = -std=gnu++17
-  INCLUDES = -IC:/Users/rando/Desktop/projects/game_of_life/libs/glfw/include -IC:/Users/rando/Desktop/projects/game_of_life/libs/imgui -IC:/Users/rando/Desktop/projects/game_of_life/libs/imgui/backends
+  FLAGS = -g -O0 -g -std=gnu++17
+  INCLUDES = -IC:/Users/rando/Desktop/projects/game_of_life/libs/glfw/include -IC:/Users/rando/Desktop/projects/game_of_life/libs -IC:/Users/rando/Desktop/projects/game_of_life/libs/imgui -IC:/Users/rando/Desktop/projects/game_of_life/libs/imgui/backends
+  OBJECT_DIR = CMakeFiles\GameOfLife.dir
+  OBJECT_FILE_DIR = CMakeFiles\GameOfLife.dir\src
+
+build CMakeFiles/GameOfLife.dir/src/glad.c.obj: C_COMPILER__GameOfLife_unscanned_Debug C$:/Users/rando/Desktop/projects/game_of_life/src/glad.c || cmake_object_order_depends_target_GameOfLife
+  DEP_FILE = CMakeFiles\GameOfLife.dir\src\glad.c.obj.d
+  FLAGS = -g
+  INCLUDES = -IC:/Users/rando/Desktop/projects/game_of_life/libs/glfw/include -IC:/Users/rando/Desktop/projects/game_of_life/libs -IC:/Users/rando/Desktop/projects/game_of_life/libs/imgui -IC:/Users/rando/Desktop/projects/game_of_life/libs/imgui/backends
   OBJECT_DIR = CMakeFiles\GameOfLife.dir
   OBJECT_FILE_DIR = CMakeFiles\GameOfLife.dir\src
 
@@ -132,7 +145,8 @@ build CMakeFiles/GameOfLife.dir/src/main.cpp.obj: CXX_COMPILER__GameOfLife_unsca
 #############################################
 # Link the executable output\GameOfLife.exe
 
-build output/GameOfLife.exe: CXX_EXECUTABLE_LINKER__GameOfLife_ CMakeFiles/GameOfLife.dir/src/main.cpp.obj | build/src/libglfw3.a libimgui.a || build/src/libglfw3.a libimgui.a
+build output/GameOfLife.exe: CXX_EXECUTABLE_LINKER__GameOfLife_Debug CMakeFiles/GameOfLife.dir/src/main.cpp.obj CMakeFiles/GameOfLife.dir/src/glad.c.obj | build/src/libglfw3.a libimgui.a || build/src/libglfw3.a libimgui.a
+  FLAGS = -g -O0 -g
   LINK_LIBRARIES = -lopengl32  build/src/libglfw3.a  libimgui.a  -lstdc++  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\GameOfLife.dir
   POST_BUILD = cd .
@@ -305,170 +319,170 @@ build build/CMakeFiles/uninstall | ${cmake_ninja_workdir}build/CMakeFiles/uninst
 
 build cmake_object_order_depends_target_glfw: phony || .
 
-build build/src/CMakeFiles/glfw.dir/context.c.obj: C_COMPILER__glfw_unscanned_ C$:/Users/rando/Desktop/projects/game_of_life/libs/glfw/src/context.c || cmake_object_order_depends_target_glfw
+build build/src/CMakeFiles/glfw.dir/context.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/rando/Desktop/projects/game_of_life/libs/glfw/src/context.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
   DEP_FILE = build\src\CMakeFiles\glfw.dir\context.c.obj.d
-  FLAGS = -std=c99 -Wall
+  FLAGS = -g -std=c99 -Wall
   INCLUDES = -IC:/Users/rando/Desktop/projects/game_of_life/libs/glfw/include -IC:/Users/rando/Desktop/projects/game_of_life/libs/glfw/src -IC:/Users/rando/Desktop/projects/game_of_life/build/build/src
   OBJECT_DIR = build\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = build\src\CMakeFiles\glfw.dir
 
-build build/src/CMakeFiles/glfw.dir/init.c.obj: C_COMPILER__glfw_unscanned_ C$:/Users/rando/Desktop/projects/game_of_life/libs/glfw/src/init.c || cmake_object_order_depends_target_glfw
+build build/src/CMakeFiles/glfw.dir/init.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/rando/Desktop/projects/game_of_life/libs/glfw/src/init.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
   DEP_FILE = build\src\CMakeFiles\glfw.dir\init.c.obj.d
-  FLAGS = -std=c99 -Wall
+  FLAGS = -g -std=c99 -Wall
   INCLUDES = -IC:/Users/rando/Desktop/projects/game_of_life/libs/glfw/include -IC:/Users/rando/Desktop/projects/game_of_life/libs/glfw/src -IC:/Users/rando/Desktop/projects/game_of_life/build/build/src
   OBJECT_DIR = build\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = build\src\CMakeFiles\glfw.dir
 
-build build/src/CMakeFiles/glfw.dir/input.c.obj: C_COMPILER__glfw_unscanned_ C$:/Users/rando/Desktop/projects/game_of_life/libs/glfw/src/input.c || cmake_object_order_depends_target_glfw
+build build/src/CMakeFiles/glfw.dir/input.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/rando/Desktop/projects/game_of_life/libs/glfw/src/input.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
   DEP_FILE = build\src\CMakeFiles\glfw.dir\input.c.obj.d
-  FLAGS = -std=c99 -Wall
+  FLAGS = -g -std=c99 -Wall
   INCLUDES = -IC:/Users/rando/Desktop/projects/game_of_life/libs/glfw/include -IC:/Users/rando/Desktop/projects/game_of_life/libs/glfw/src -IC:/Users/rando/Desktop/projects/game_of_life/build/build/src
   OBJECT_DIR = build\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = build\src\CMakeFiles\glfw.dir
 
-build build/src/CMakeFiles/glfw.dir/monitor.c.obj: C_COMPILER__glfw_unscanned_ C$:/Users/rando/Desktop/projects/game_of_life/libs/glfw/src/monitor.c || cmake_object_order_depends_target_glfw
+build build/src/CMakeFiles/glfw.dir/monitor.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/rando/Desktop/projects/game_of_life/libs/glfw/src/monitor.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
   DEP_FILE = build\src\CMakeFiles\glfw.dir\monitor.c.obj.d
-  FLAGS = -std=c99 -Wall
+  FLAGS = -g -std=c99 -Wall
   INCLUDES = -IC:/Users/rando/Desktop/projects/game_of_life/libs/glfw/include -IC:/Users/rando/Desktop/projects/game_of_life/libs/glfw/src -IC:/Users/rando/Desktop/projects/game_of_life/build/build/src
   OBJECT_DIR = build\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = build\src\CMakeFiles\glfw.dir
 
-build build/src/CMakeFiles/glfw.dir/platform.c.obj: C_COMPILER__glfw_unscanned_ C$:/Users/rando/Desktop/projects/game_of_life/libs/glfw/src/platform.c || cmake_object_order_depends_target_glfw
+build build/src/CMakeFiles/glfw.dir/platform.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/rando/Desktop/projects/game_of_life/libs/glfw/src/platform.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
   DEP_FILE = build\src\CMakeFiles\glfw.dir\platform.c.obj.d
-  FLAGS = -std=c99 -Wall
+  FLAGS = -g -std=c99 -Wall
   INCLUDES = -IC:/Users/rando/Desktop/projects/game_of_life/libs/glfw/include -IC:/Users/rando/Desktop/projects/game_of_life/libs/glfw/src -IC:/Users/rando/Desktop/projects/game_of_life/build/build/src
   OBJECT_DIR = build\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = build\src\CMakeFiles\glfw.dir
 
-build build/src/CMakeFiles/glfw.dir/vulkan.c.obj: C_COMPILER__glfw_unscanned_ C$:/Users/rando/Desktop/projects/game_of_life/libs/glfw/src/vulkan.c || cmake_object_order_depends_target_glfw
+build build/src/CMakeFiles/glfw.dir/vulkan.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/rando/Desktop/projects/game_of_life/libs/glfw/src/vulkan.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
   DEP_FILE = build\src\CMakeFiles\glfw.dir\vulkan.c.obj.d
-  FLAGS = -std=c99 -Wall
+  FLAGS = -g -std=c99 -Wall
   INCLUDES = -IC:/Users/rando/Desktop/projects/game_of_life/libs/glfw/include -IC:/Users/rando/Desktop/projects/game_of_life/libs/glfw/src -IC:/Users/rando/Desktop/projects/game_of_life/build/build/src
   OBJECT_DIR = build\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = build\src\CMakeFiles\glfw.dir
 
-build build/src/CMakeFiles/glfw.dir/window.c.obj: C_COMPILER__glfw_unscanned_ C$:/Users/rando/Desktop/projects/game_of_life/libs/glfw/src/window.c || cmake_object_order_depends_target_glfw
+build build/src/CMakeFiles/glfw.dir/window.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/rando/Desktop/projects/game_of_life/libs/glfw/src/window.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
   DEP_FILE = build\src\CMakeFiles\glfw.dir\window.c.obj.d
-  FLAGS = -std=c99 -Wall
+  FLAGS = -g -std=c99 -Wall
   INCLUDES = -IC:/Users/rando/Desktop/projects/game_of_life/libs/glfw/include -IC:/Users/rando/Desktop/projects/game_of_life/libs/glfw/src -IC:/Users/rando/Desktop/projects/game_of_life/build/build/src
   OBJECT_DIR = build\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = build\src\CMakeFiles\glfw.dir
 
-build build/src/CMakeFiles/glfw.dir/egl_context.c.obj: C_COMPILER__glfw_unscanned_ C$:/Users/rando/Desktop/projects/game_of_life/libs/glfw/src/egl_context.c || cmake_object_order_depends_target_glfw
+build build/src/CMakeFiles/glfw.dir/egl_context.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/rando/Desktop/projects/game_of_life/libs/glfw/src/egl_context.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
   DEP_FILE = build\src\CMakeFiles\glfw.dir\egl_context.c.obj.d
-  FLAGS = -std=c99 -Wall
+  FLAGS = -g -std=c99 -Wall
   INCLUDES = -IC:/Users/rando/Desktop/projects/game_of_life/libs/glfw/include -IC:/Users/rando/Desktop/projects/game_of_life/libs/glfw/src -IC:/Users/rando/Desktop/projects/game_of_life/build/build/src
   OBJECT_DIR = build\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = build\src\CMakeFiles\glfw.dir
 
-build build/src/CMakeFiles/glfw.dir/osmesa_context.c.obj: C_COMPILER__glfw_unscanned_ C$:/Users/rando/Desktop/projects/game_of_life/libs/glfw/src/osmesa_context.c || cmake_object_order_depends_target_glfw
+build build/src/CMakeFiles/glfw.dir/osmesa_context.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/rando/Desktop/projects/game_of_life/libs/glfw/src/osmesa_context.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
   DEP_FILE = build\src\CMakeFiles\glfw.dir\osmesa_context.c.obj.d
-  FLAGS = -std=c99 -Wall
+  FLAGS = -g -std=c99 -Wall
   INCLUDES = -IC:/Users/rando/Desktop/projects/game_of_life/libs/glfw/include -IC:/Users/rando/Desktop/projects/game_of_life/libs/glfw/src -IC:/Users/rando/Desktop/projects/game_of_life/build/build/src
   OBJECT_DIR = build\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = build\src\CMakeFiles\glfw.dir
 
-build build/src/CMakeFiles/glfw.dir/null_init.c.obj: C_COMPILER__glfw_unscanned_ C$:/Users/rando/Desktop/projects/game_of_life/libs/glfw/src/null_init.c || cmake_object_order_depends_target_glfw
+build build/src/CMakeFiles/glfw.dir/null_init.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/rando/Desktop/projects/game_of_life/libs/glfw/src/null_init.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
   DEP_FILE = build\src\CMakeFiles\glfw.dir\null_init.c.obj.d
-  FLAGS = -std=c99 -Wall
+  FLAGS = -g -std=c99 -Wall
   INCLUDES = -IC:/Users/rando/Desktop/projects/game_of_life/libs/glfw/include -IC:/Users/rando/Desktop/projects/game_of_life/libs/glfw/src -IC:/Users/rando/Desktop/projects/game_of_life/build/build/src
   OBJECT_DIR = build\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = build\src\CMakeFiles\glfw.dir
 
-build build/src/CMakeFiles/glfw.dir/null_monitor.c.obj: C_COMPILER__glfw_unscanned_ C$:/Users/rando/Desktop/projects/game_of_life/libs/glfw/src/null_monitor.c || cmake_object_order_depends_target_glfw
+build build/src/CMakeFiles/glfw.dir/null_monitor.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/rando/Desktop/projects/game_of_life/libs/glfw/src/null_monitor.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
   DEP_FILE = build\src\CMakeFiles\glfw.dir\null_monitor.c.obj.d
-  FLAGS = -std=c99 -Wall
+  FLAGS = -g -std=c99 -Wall
   INCLUDES = -IC:/Users/rando/Desktop/projects/game_of_life/libs/glfw/include -IC:/Users/rando/Desktop/projects/game_of_life/libs/glfw/src -IC:/Users/rando/Desktop/projects/game_of_life/build/build/src
   OBJECT_DIR = build\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = build\src\CMakeFiles\glfw.dir
 
-build build/src/CMakeFiles/glfw.dir/null_window.c.obj: C_COMPILER__glfw_unscanned_ C$:/Users/rando/Desktop/projects/game_of_life/libs/glfw/src/null_window.c || cmake_object_order_depends_target_glfw
+build build/src/CMakeFiles/glfw.dir/null_window.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/rando/Desktop/projects/game_of_life/libs/glfw/src/null_window.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
   DEP_FILE = build\src\CMakeFiles\glfw.dir\null_window.c.obj.d
-  FLAGS = -std=c99 -Wall
+  FLAGS = -g -std=c99 -Wall
   INCLUDES = -IC:/Users/rando/Desktop/projects/game_of_life/libs/glfw/include -IC:/Users/rando/Desktop/projects/game_of_life/libs/glfw/src -IC:/Users/rando/Desktop/projects/game_of_life/build/build/src
   OBJECT_DIR = build\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = build\src\CMakeFiles\glfw.dir
 
-build build/src/CMakeFiles/glfw.dir/null_joystick.c.obj: C_COMPILER__glfw_unscanned_ C$:/Users/rando/Desktop/projects/game_of_life/libs/glfw/src/null_joystick.c || cmake_object_order_depends_target_glfw
+build build/src/CMakeFiles/glfw.dir/null_joystick.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/rando/Desktop/projects/game_of_life/libs/glfw/src/null_joystick.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
   DEP_FILE = build\src\CMakeFiles\glfw.dir\null_joystick.c.obj.d
-  FLAGS = -std=c99 -Wall
+  FLAGS = -g -std=c99 -Wall
   INCLUDES = -IC:/Users/rando/Desktop/projects/game_of_life/libs/glfw/include -IC:/Users/rando/Desktop/projects/game_of_life/libs/glfw/src -IC:/Users/rando/Desktop/projects/game_of_life/build/build/src
   OBJECT_DIR = build\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = build\src\CMakeFiles\glfw.dir
 
-build build/src/CMakeFiles/glfw.dir/win32_module.c.obj: C_COMPILER__glfw_unscanned_ C$:/Users/rando/Desktop/projects/game_of_life/libs/glfw/src/win32_module.c || cmake_object_order_depends_target_glfw
+build build/src/CMakeFiles/glfw.dir/win32_module.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/rando/Desktop/projects/game_of_life/libs/glfw/src/win32_module.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
   DEP_FILE = build\src\CMakeFiles\glfw.dir\win32_module.c.obj.d
-  FLAGS = -std=c99 -Wall
+  FLAGS = -g -std=c99 -Wall
   INCLUDES = -IC:/Users/rando/Desktop/projects/game_of_life/libs/glfw/include -IC:/Users/rando/Desktop/projects/game_of_life/libs/glfw/src -IC:/Users/rando/Desktop/projects/game_of_life/build/build/src
   OBJECT_DIR = build\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = build\src\CMakeFiles\glfw.dir
 
-build build/src/CMakeFiles/glfw.dir/win32_time.c.obj: C_COMPILER__glfw_unscanned_ C$:/Users/rando/Desktop/projects/game_of_life/libs/glfw/src/win32_time.c || cmake_object_order_depends_target_glfw
+build build/src/CMakeFiles/glfw.dir/win32_time.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/rando/Desktop/projects/game_of_life/libs/glfw/src/win32_time.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
   DEP_FILE = build\src\CMakeFiles\glfw.dir\win32_time.c.obj.d
-  FLAGS = -std=c99 -Wall
+  FLAGS = -g -std=c99 -Wall
   INCLUDES = -IC:/Users/rando/Desktop/projects/game_of_life/libs/glfw/include -IC:/Users/rando/Desktop/projects/game_of_life/libs/glfw/src -IC:/Users/rando/Desktop/projects/game_of_life/build/build/src
   OBJECT_DIR = build\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = build\src\CMakeFiles\glfw.dir
 
-build build/src/CMakeFiles/glfw.dir/win32_thread.c.obj: C_COMPILER__glfw_unscanned_ C$:/Users/rando/Desktop/projects/game_of_life/libs/glfw/src/win32_thread.c || cmake_object_order_depends_target_glfw
+build build/src/CMakeFiles/glfw.dir/win32_thread.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/rando/Desktop/projects/game_of_life/libs/glfw/src/win32_thread.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
   DEP_FILE = build\src\CMakeFiles\glfw.dir\win32_thread.c.obj.d
-  FLAGS = -std=c99 -Wall
+  FLAGS = -g -std=c99 -Wall
   INCLUDES = -IC:/Users/rando/Desktop/projects/game_of_life/libs/glfw/include -IC:/Users/rando/Desktop/projects/game_of_life/libs/glfw/src -IC:/Users/rando/Desktop/projects/game_of_life/build/build/src
   OBJECT_DIR = build\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = build\src\CMakeFiles\glfw.dir
 
-build build/src/CMakeFiles/glfw.dir/win32_init.c.obj: C_COMPILER__glfw_unscanned_ C$:/Users/rando/Desktop/projects/game_of_life/libs/glfw/src/win32_init.c || cmake_object_order_depends_target_glfw
+build build/src/CMakeFiles/glfw.dir/win32_init.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/rando/Desktop/projects/game_of_life/libs/glfw/src/win32_init.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
   DEP_FILE = build\src\CMakeFiles\glfw.dir\win32_init.c.obj.d
-  FLAGS = -std=c99 -Wall
+  FLAGS = -g -std=c99 -Wall
   INCLUDES = -IC:/Users/rando/Desktop/projects/game_of_life/libs/glfw/include -IC:/Users/rando/Desktop/projects/game_of_life/libs/glfw/src -IC:/Users/rando/Desktop/projects/game_of_life/build/build/src
   OBJECT_DIR = build\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = build\src\CMakeFiles\glfw.dir
 
-build build/src/CMakeFiles/glfw.dir/win32_joystick.c.obj: C_COMPILER__glfw_unscanned_ C$:/Users/rando/Desktop/projects/game_of_life/libs/glfw/src/win32_joystick.c || cmake_object_order_depends_target_glfw
+build build/src/CMakeFiles/glfw.dir/win32_joystick.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/rando/Desktop/projects/game_of_life/libs/glfw/src/win32_joystick.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
   DEP_FILE = build\src\CMakeFiles\glfw.dir\win32_joystick.c.obj.d
-  FLAGS = -std=c99 -Wall
+  FLAGS = -g -std=c99 -Wall
   INCLUDES = -IC:/Users/rando/Desktop/projects/game_of_life/libs/glfw/include -IC:/Users/rando/Desktop/projects/game_of_life/libs/glfw/src -IC:/Users/rando/Desktop/projects/game_of_life/build/build/src
   OBJECT_DIR = build\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = build\src\CMakeFiles\glfw.dir
 
-build build/src/CMakeFiles/glfw.dir/win32_monitor.c.obj: C_COMPILER__glfw_unscanned_ C$:/Users/rando/Desktop/projects/game_of_life/libs/glfw/src/win32_monitor.c || cmake_object_order_depends_target_glfw
+build build/src/CMakeFiles/glfw.dir/win32_monitor.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/rando/Desktop/projects/game_of_life/libs/glfw/src/win32_monitor.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
   DEP_FILE = build\src\CMakeFiles\glfw.dir\win32_monitor.c.obj.d
-  FLAGS = -std=c99 -Wall
+  FLAGS = -g -std=c99 -Wall
   INCLUDES = -IC:/Users/rando/Desktop/projects/game_of_life/libs/glfw/include -IC:/Users/rando/Desktop/projects/game_of_life/libs/glfw/src -IC:/Users/rando/Desktop/projects/game_of_life/build/build/src
   OBJECT_DIR = build\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = build\src\CMakeFiles\glfw.dir
 
-build build/src/CMakeFiles/glfw.dir/win32_window.c.obj: C_COMPILER__glfw_unscanned_ C$:/Users/rando/Desktop/projects/game_of_life/libs/glfw/src/win32_window.c || cmake_object_order_depends_target_glfw
+build build/src/CMakeFiles/glfw.dir/win32_window.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/rando/Desktop/projects/game_of_life/libs/glfw/src/win32_window.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
   DEP_FILE = build\src\CMakeFiles\glfw.dir\win32_window.c.obj.d
-  FLAGS = -std=c99 -Wall
+  FLAGS = -g -std=c99 -Wall
   INCLUDES = -IC:/Users/rando/Desktop/projects/game_of_life/libs/glfw/include -IC:/Users/rando/Desktop/projects/game_of_life/libs/glfw/src -IC:/Users/rando/Desktop/projects/game_of_life/build/build/src
   OBJECT_DIR = build\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = build\src\CMakeFiles\glfw.dir
 
-build build/src/CMakeFiles/glfw.dir/wgl_context.c.obj: C_COMPILER__glfw_unscanned_ C$:/Users/rando/Desktop/projects/game_of_life/libs/glfw/src/wgl_context.c || cmake_object_order_depends_target_glfw
+build build/src/CMakeFiles/glfw.dir/wgl_context.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/rando/Desktop/projects/game_of_life/libs/glfw/src/wgl_context.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
   DEP_FILE = build\src\CMakeFiles\glfw.dir\wgl_context.c.obj.d
-  FLAGS = -std=c99 -Wall
+  FLAGS = -g -std=c99 -Wall
   INCLUDES = -IC:/Users/rando/Desktop/projects/game_of_life/libs/glfw/include -IC:/Users/rando/Desktop/projects/game_of_life/libs/glfw/src -IC:/Users/rando/Desktop/projects/game_of_life/build/build/src
   OBJECT_DIR = build\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = build\src\CMakeFiles\glfw.dir
@@ -481,7 +495,8 @@ build build/src/CMakeFiles/glfw.dir/wgl_context.c.obj: C_COMPILER__glfw_unscanne
 #############################################
 # Link the static library build\src\libglfw3.a
 
-build build/src/libglfw3.a: C_STATIC_LIBRARY_LINKER__glfw_ build/src/CMakeFiles/glfw.dir/context.c.obj build/src/CMakeFiles/glfw.dir/init.c.obj build/src/CMakeFiles/glfw.dir/input.c.obj build/src/CMakeFiles/glfw.dir/monitor.c.obj build/src/CMakeFiles/glfw.dir/platform.c.obj build/src/CMakeFiles/glfw.dir/vulkan.c.obj build/src/CMakeFiles/glfw.dir/window.c.obj build/src/CMakeFiles/glfw.dir/egl_context.c.obj build/src/CMakeFiles/glfw.dir/osmesa_context.c.obj build/src/CMakeFiles/glfw.dir/null_init.c.obj build/src/CMakeFiles/glfw.dir/null_monitor.c.obj build/src/CMakeFiles/glfw.dir/null_window.c.obj build/src/CMakeFiles/glfw.dir/null_joystick.c.obj build/src/CMakeFiles/glfw.dir/win32_module.c.obj build/src/CMakeFiles/glfw.dir/win32_time.c.obj build/src/CMakeFiles/glfw.dir/win32_thread.c.obj build/src/CMakeFiles/glfw.dir/win32_init.c.obj build/src/CMakeFiles/glfw.dir/win32_joystick.c.obj build/src/CMakeFiles/glfw.dir/win32_monitor.c.obj build/src/CMakeFiles/glfw.dir/win32_window.c.obj build/src/CMakeFiles/glfw.dir/wgl_context.c.obj
+build build/src/libglfw3.a: C_STATIC_LIBRARY_LINKER__glfw_Debug build/src/CMakeFiles/glfw.dir/context.c.obj build/src/CMakeFiles/glfw.dir/init.c.obj build/src/CMakeFiles/glfw.dir/input.c.obj build/src/CMakeFiles/glfw.dir/monitor.c.obj build/src/CMakeFiles/glfw.dir/platform.c.obj build/src/CMakeFiles/glfw.dir/vulkan.c.obj build/src/CMakeFiles/glfw.dir/window.c.obj build/src/CMakeFiles/glfw.dir/egl_context.c.obj build/src/CMakeFiles/glfw.dir/osmesa_context.c.obj build/src/CMakeFiles/glfw.dir/null_init.c.obj build/src/CMakeFiles/glfw.dir/null_monitor.c.obj build/src/CMakeFiles/glfw.dir/null_window.c.obj build/src/CMakeFiles/glfw.dir/null_joystick.c.obj build/src/CMakeFiles/glfw.dir/win32_module.c.obj build/src/CMakeFiles/glfw.dir/win32_time.c.obj build/src/CMakeFiles/glfw.dir/win32_thread.c.obj build/src/CMakeFiles/glfw.dir/win32_init.c.obj build/src/CMakeFiles/glfw.dir/win32_joystick.c.obj build/src/CMakeFiles/glfw.dir/win32_monitor.c.obj build/src/CMakeFiles/glfw.dir/win32_window.c.obj build/src/CMakeFiles/glfw.dir/wgl_context.c.obj
+  LANGUAGE_COMPILE_FLAGS = -g
   OBJECT_DIR = build\src\CMakeFiles\glfw.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
