@@ -1,25 +1,25 @@
 {
-    "version": "0.2.0",
-    "configurations": [
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug GameOfLife",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/output/GameOfLife.exe",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "externalConsole": true,
+      "MIMode": "lldb",
+      "miDebuggerPath": "C:/ProgramData/mingw64/mingw64/bin/gdb.exe",
+      "setupCommands": [
         {
-            "name": "Debug GameOfLife",
-            "type": "cppdbg",
-            "request": "launch",
-            "program": "${workspaceFolder}/build/output/GameOfLife.exe",
-            "args": [],
-            "stopAtEntry": false,
-            "cwd": "${workspaceFolder}",
-            "environment": [],
-            "externalConsole": true,
-            "MIMode": "lldb",
-            "miDebuggerPath": "C:/msys64/mingw64/bin/gdb.exe",
-            "setupCommands": [
-                {
-                    "description": "Enable pretty-printing for LLDB",
-                    "text": "settings set target.print-object-description true",
-                    "ignoreFailures": true
-                }
-            ],
+          "description": "Enable pretty-printing for LLDB",
+          "text": "settings set target.print-object-description true",
+          "ignoreFailures": true
         }
-    ]
+      ]
+    }
+  ]
 }

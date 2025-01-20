@@ -1,9 +1,9 @@
 
-if (NOT EXISTS "C:/Users/rando/Desktop/projects/game_of_life/build/build/install_manifest.txt")
-    message(FATAL_ERROR "Cannot find install manifest: \"C:/Users/rando/Desktop/projects/game_of_life/build/build/install_manifest.txt\"")
+if (NOT EXISTS "C:/Users/Randon/Desktop/Projects/game_of_life/build/build/install_manifest.txt")
+    message(FATAL_ERROR "Cannot find install manifest: \"C:/Users/Randon/Desktop/Projects/game_of_life/build/build/install_manifest.txt\"")
 endif()
 
-file(READ "C:/Users/rando/Desktop/projects/game_of_life/build/build/install_manifest.txt" files)
+file(READ "C:/Users/Randon/Desktop/Projects/game_of_life/build/build/install_manifest.txt" files)
 string(REGEX REPLACE "\n" ";" files "${files}")
 
 foreach (file ${files})
