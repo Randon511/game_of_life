@@ -5,15 +5,7 @@
       "label": "Config",
       "type": "shell",
       "command": "cmake",
-      "args": [
-        "-S",
-        ".",
-        "-B",
-        "build",
-        "-G",
-        "Ninja",
-        "-DCMAKE_BUILD_TYPE=Debug"
-      ],
+      "args": ["-S", ".", "-B", "build", "-G", "Ninja"],
       "group": {
         "kind": "build",
         "isDefault": false
@@ -23,7 +15,7 @@
       "label": "Build",
       "type": "shell",
       "command": "cmake",
-      "args": ["--build", "build"],
+      "args": ["--build", "build", "-j6"],
       "group": {
         "kind": "build",
         "isDefault": false

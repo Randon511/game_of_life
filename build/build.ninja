@@ -49,68 +49,54 @@ cmake_ninja_workdir = C$:/Users/Randon/Desktop/Projects/game_of_life/build/
 
 build cmake_object_order_depends_target_imgui: phony || CMakeFiles/imgui.dir
 
-build CMakeFiles/imgui.dir/libs/imgui/backends/imgui_impl_glfw.cpp.obj: CXX_COMPILER__imgui_unscanned_Debug C$:/Users/Randon/Desktop/Projects/game_of_life/libs/imgui/backends/imgui_impl_glfw.cpp || cmake_object_order_depends_target_imgui
-  DEP_FILE = CMakeFiles\imgui.dir\libs\imgui\backends\imgui_impl_glfw.cpp.obj.d
+build CMakeFiles/imgui.dir/libs/imgui/backends/imgui_impl_dx11.cpp.obj: CXX_COMPILER__imgui_unscanned_Debug C$:/Users/Randon/Desktop/Projects/game_of_life/libs/imgui/backends/imgui_impl_dx11.cpp || cmake_object_order_depends_target_imgui
+  DEP_FILE = CMakeFiles\imgui.dir\libs\imgui\backends\imgui_impl_dx11.cpp.obj.d
   FLAGS = -g -O0 -g -std=gnu++17
-  INCLUDES = -IC:/Users/Randon/Desktop/Projects/game_of_life/libs/glfw/include -IC:/Users/Randon/Desktop/Projects/game_of_life/libs/imgui -IC:/Users/Randon/Desktop/Projects/game_of_life/libs/imgui/backends
+  INCLUDES = -IC:/Users/Randon/Desktop/Projects/game_of_life/libs/imgui -IC:/Users/Randon/Desktop/Projects/game_of_life/libs/imgui/backends
   OBJECT_DIR = CMakeFiles\imgui.dir
   OBJECT_FILE_DIR = CMakeFiles\imgui.dir\libs\imgui\backends
-  TARGET_COMPILE_PDB = CMakeFiles\imgui.dir\imgui.pdb
-  TARGET_PDB = libimgui.pdb
 
-build CMakeFiles/imgui.dir/libs/imgui/backends/imgui_impl_opengl3.cpp.obj: CXX_COMPILER__imgui_unscanned_Debug C$:/Users/Randon/Desktop/Projects/game_of_life/libs/imgui/backends/imgui_impl_opengl3.cpp || cmake_object_order_depends_target_imgui
-  DEP_FILE = CMakeFiles\imgui.dir\libs\imgui\backends\imgui_impl_opengl3.cpp.obj.d
+build CMakeFiles/imgui.dir/libs/imgui/backends/imgui_impl_win32.cpp.obj: CXX_COMPILER__imgui_unscanned_Debug C$:/Users/Randon/Desktop/Projects/game_of_life/libs/imgui/backends/imgui_impl_win32.cpp || cmake_object_order_depends_target_imgui
+  DEP_FILE = CMakeFiles\imgui.dir\libs\imgui\backends\imgui_impl_win32.cpp.obj.d
   FLAGS = -g -O0 -g -std=gnu++17
-  INCLUDES = -IC:/Users/Randon/Desktop/Projects/game_of_life/libs/glfw/include -IC:/Users/Randon/Desktop/Projects/game_of_life/libs/imgui -IC:/Users/Randon/Desktop/Projects/game_of_life/libs/imgui/backends
+  INCLUDES = -IC:/Users/Randon/Desktop/Projects/game_of_life/libs/imgui -IC:/Users/Randon/Desktop/Projects/game_of_life/libs/imgui/backends
   OBJECT_DIR = CMakeFiles\imgui.dir
   OBJECT_FILE_DIR = CMakeFiles\imgui.dir\libs\imgui\backends
-  TARGET_COMPILE_PDB = CMakeFiles\imgui.dir\imgui.pdb
-  TARGET_PDB = libimgui.pdb
 
 build CMakeFiles/imgui.dir/libs/imgui/imgui.cpp.obj: CXX_COMPILER__imgui_unscanned_Debug C$:/Users/Randon/Desktop/Projects/game_of_life/libs/imgui/imgui.cpp || cmake_object_order_depends_target_imgui
   DEP_FILE = CMakeFiles\imgui.dir\libs\imgui\imgui.cpp.obj.d
   FLAGS = -g -O0 -g -std=gnu++17
-  INCLUDES = -IC:/Users/Randon/Desktop/Projects/game_of_life/libs/glfw/include -IC:/Users/Randon/Desktop/Projects/game_of_life/libs/imgui -IC:/Users/Randon/Desktop/Projects/game_of_life/libs/imgui/backends
+  INCLUDES = -IC:/Users/Randon/Desktop/Projects/game_of_life/libs/imgui -IC:/Users/Randon/Desktop/Projects/game_of_life/libs/imgui/backends
   OBJECT_DIR = CMakeFiles\imgui.dir
   OBJECT_FILE_DIR = CMakeFiles\imgui.dir\libs\imgui
-  TARGET_COMPILE_PDB = CMakeFiles\imgui.dir\imgui.pdb
-  TARGET_PDB = libimgui.pdb
 
 build CMakeFiles/imgui.dir/libs/imgui/imgui_demo.cpp.obj: CXX_COMPILER__imgui_unscanned_Debug C$:/Users/Randon/Desktop/Projects/game_of_life/libs/imgui/imgui_demo.cpp || cmake_object_order_depends_target_imgui
   DEP_FILE = CMakeFiles\imgui.dir\libs\imgui\imgui_demo.cpp.obj.d
   FLAGS = -g -O0 -g -std=gnu++17
-  INCLUDES = -IC:/Users/Randon/Desktop/Projects/game_of_life/libs/glfw/include -IC:/Users/Randon/Desktop/Projects/game_of_life/libs/imgui -IC:/Users/Randon/Desktop/Projects/game_of_life/libs/imgui/backends
+  INCLUDES = -IC:/Users/Randon/Desktop/Projects/game_of_life/libs/imgui -IC:/Users/Randon/Desktop/Projects/game_of_life/libs/imgui/backends
   OBJECT_DIR = CMakeFiles\imgui.dir
   OBJECT_FILE_DIR = CMakeFiles\imgui.dir\libs\imgui
-  TARGET_COMPILE_PDB = CMakeFiles\imgui.dir\imgui.pdb
-  TARGET_PDB = libimgui.pdb
 
 build CMakeFiles/imgui.dir/libs/imgui/imgui_draw.cpp.obj: CXX_COMPILER__imgui_unscanned_Debug C$:/Users/Randon/Desktop/Projects/game_of_life/libs/imgui/imgui_draw.cpp || cmake_object_order_depends_target_imgui
   DEP_FILE = CMakeFiles\imgui.dir\libs\imgui\imgui_draw.cpp.obj.d
   FLAGS = -g -O0 -g -std=gnu++17
-  INCLUDES = -IC:/Users/Randon/Desktop/Projects/game_of_life/libs/glfw/include -IC:/Users/Randon/Desktop/Projects/game_of_life/libs/imgui -IC:/Users/Randon/Desktop/Projects/game_of_life/libs/imgui/backends
+  INCLUDES = -IC:/Users/Randon/Desktop/Projects/game_of_life/libs/imgui -IC:/Users/Randon/Desktop/Projects/game_of_life/libs/imgui/backends
   OBJECT_DIR = CMakeFiles\imgui.dir
   OBJECT_FILE_DIR = CMakeFiles\imgui.dir\libs\imgui
-  TARGET_COMPILE_PDB = CMakeFiles\imgui.dir\imgui.pdb
-  TARGET_PDB = libimgui.pdb
 
 build CMakeFiles/imgui.dir/libs/imgui/imgui_tables.cpp.obj: CXX_COMPILER__imgui_unscanned_Debug C$:/Users/Randon/Desktop/Projects/game_of_life/libs/imgui/imgui_tables.cpp || cmake_object_order_depends_target_imgui
   DEP_FILE = CMakeFiles\imgui.dir\libs\imgui\imgui_tables.cpp.obj.d
   FLAGS = -g -O0 -g -std=gnu++17
-  INCLUDES = -IC:/Users/Randon/Desktop/Projects/game_of_life/libs/glfw/include -IC:/Users/Randon/Desktop/Projects/game_of_life/libs/imgui -IC:/Users/Randon/Desktop/Projects/game_of_life/libs/imgui/backends
+  INCLUDES = -IC:/Users/Randon/Desktop/Projects/game_of_life/libs/imgui -IC:/Users/Randon/Desktop/Projects/game_of_life/libs/imgui/backends
   OBJECT_DIR = CMakeFiles\imgui.dir
   OBJECT_FILE_DIR = CMakeFiles\imgui.dir\libs\imgui
-  TARGET_COMPILE_PDB = CMakeFiles\imgui.dir\imgui.pdb
-  TARGET_PDB = libimgui.pdb
 
 build CMakeFiles/imgui.dir/libs/imgui/imgui_widgets.cpp.obj: CXX_COMPILER__imgui_unscanned_Debug C$:/Users/Randon/Desktop/Projects/game_of_life/libs/imgui/imgui_widgets.cpp || cmake_object_order_depends_target_imgui
   DEP_FILE = CMakeFiles\imgui.dir\libs\imgui\imgui_widgets.cpp.obj.d
   FLAGS = -g -O0 -g -std=gnu++17
-  INCLUDES = -IC:/Users/Randon/Desktop/Projects/game_of_life/libs/glfw/include -IC:/Users/Randon/Desktop/Projects/game_of_life/libs/imgui -IC:/Users/Randon/Desktop/Projects/game_of_life/libs/imgui/backends
+  INCLUDES = -IC:/Users/Randon/Desktop/Projects/game_of_life/libs/imgui -IC:/Users/Randon/Desktop/Projects/game_of_life/libs/imgui/backends
   OBJECT_DIR = CMakeFiles\imgui.dir
   OBJECT_FILE_DIR = CMakeFiles\imgui.dir\libs\imgui
-  TARGET_COMPILE_PDB = CMakeFiles\imgui.dir\imgui.pdb
-  TARGET_PDB = libimgui.pdb
 
 
 # =============================================================================
@@ -120,14 +106,13 @@ build CMakeFiles/imgui.dir/libs/imgui/imgui_widgets.cpp.obj: CXX_COMPILER__imgui
 #############################################
 # Link the static library libimgui.a
 
-build libimgui.a: CXX_STATIC_LIBRARY_LINKER__imgui_Debug CMakeFiles/imgui.dir/libs/imgui/backends/imgui_impl_glfw.cpp.obj CMakeFiles/imgui.dir/libs/imgui/backends/imgui_impl_opengl3.cpp.obj CMakeFiles/imgui.dir/libs/imgui/imgui.cpp.obj CMakeFiles/imgui.dir/libs/imgui/imgui_demo.cpp.obj CMakeFiles/imgui.dir/libs/imgui/imgui_draw.cpp.obj CMakeFiles/imgui.dir/libs/imgui/imgui_tables.cpp.obj CMakeFiles/imgui.dir/libs/imgui/imgui_widgets.cpp.obj
+build libimgui.a: CXX_STATIC_LIBRARY_LINKER__imgui_Debug CMakeFiles/imgui.dir/libs/imgui/backends/imgui_impl_dx11.cpp.obj CMakeFiles/imgui.dir/libs/imgui/backends/imgui_impl_win32.cpp.obj CMakeFiles/imgui.dir/libs/imgui/imgui.cpp.obj CMakeFiles/imgui.dir/libs/imgui/imgui_demo.cpp.obj CMakeFiles/imgui.dir/libs/imgui/imgui_draw.cpp.obj CMakeFiles/imgui.dir/libs/imgui/imgui_tables.cpp.obj CMakeFiles/imgui.dir/libs/imgui/imgui_widgets.cpp.obj
   LANGUAGE_COMPILE_FLAGS = -g -O0 -g
   OBJECT_DIR = CMakeFiles\imgui.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\imgui.dir\imgui.pdb
   TARGET_FILE = libimgui.a
-  TARGET_PDB = libimgui.pdb
+  TARGET_PDB = imgui.a.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target GameOfLife
@@ -136,25 +121,15 @@ build libimgui.a: CXX_STATIC_LIBRARY_LINKER__imgui_Debug CMakeFiles/imgui.dir/li
 #############################################
 # Order-only phony target for GameOfLife
 
-build cmake_object_order_depends_target_GameOfLife: phony || cmake_object_order_depends_target_glfw cmake_object_order_depends_target_imgui
+build cmake_object_order_depends_target_GameOfLife: phony || cmake_object_order_depends_target_glfw cmake_object_order_depends_target_imgui cmake_object_order_depends_target_raylib
 
 build CMakeFiles/GameOfLife.dir/src/main.cpp.obj: CXX_COMPILER__GameOfLife_unscanned_Debug C$:/Users/Randon/Desktop/Projects/game_of_life/src/main.cpp || cmake_object_order_depends_target_GameOfLife
+  DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP
   DEP_FILE = CMakeFiles\GameOfLife.dir\src\main.cpp.obj.d
   FLAGS = -g -O0 -g -std=gnu++17
-  INCLUDES = -IC:/Users/Randon/Desktop/Projects/game_of_life/libs/glfw/include -IC:/Users/Randon/Desktop/Projects/game_of_life/libs -IC:/Users/Randon/Desktop/Projects/game_of_life/libs/imgui -IC:/Users/Randon/Desktop/Projects/game_of_life/libs/imgui/backends
+  INCLUDES = -IC:/Users/Randon/Desktop/Projects/game_of_life/libs -IC:/Users/Randon/Desktop/Projects/game_of_life/libs/imgui -IC:/Users/Randon/Desktop/Projects/game_of_life/libs/imgui/backends -IC:/Users/Randon/Desktop/Projects/game_of_life/build/_deps/raylib-src/src -IC:/Users/Randon/Desktop/Projects/game_of_life/build/_deps/raylib-src/src/external/glfw/include
   OBJECT_DIR = CMakeFiles\GameOfLife.dir
   OBJECT_FILE_DIR = CMakeFiles\GameOfLife.dir\src
-  TARGET_COMPILE_PDB = CMakeFiles\GameOfLife.dir\
-  TARGET_PDB = output\GameOfLife.pdb
-
-build CMakeFiles/GameOfLife.dir/src/glad.c.obj: C_COMPILER__GameOfLife_unscanned_Debug C$:/Users/Randon/Desktop/Projects/game_of_life/src/glad.c || cmake_object_order_depends_target_GameOfLife
-  DEP_FILE = CMakeFiles\GameOfLife.dir\src\glad.c.obj.d
-  FLAGS = -g
-  INCLUDES = -IC:/Users/Randon/Desktop/Projects/game_of_life/libs/glfw/include -IC:/Users/Randon/Desktop/Projects/game_of_life/libs -IC:/Users/Randon/Desktop/Projects/game_of_life/libs/imgui -IC:/Users/Randon/Desktop/Projects/game_of_life/libs/imgui/backends
-  OBJECT_DIR = CMakeFiles\GameOfLife.dir
-  OBJECT_FILE_DIR = CMakeFiles\GameOfLife.dir\src
-  TARGET_COMPILE_PDB = CMakeFiles\GameOfLife.dir\
-  TARGET_PDB = output\GameOfLife.pdb
 
 
 # =============================================================================
@@ -164,16 +139,39 @@ build CMakeFiles/GameOfLife.dir/src/glad.c.obj: C_COMPILER__GameOfLife_unscanned
 #############################################
 # Link the executable output\GameOfLife.exe
 
-build output/GameOfLife.exe: CXX_EXECUTABLE_LINKER__GameOfLife_Debug CMakeFiles/GameOfLife.dir/src/main.cpp.obj CMakeFiles/GameOfLife.dir/src/glad.c.obj | build/src/libglfw3.a libimgui.a || build/src/libglfw3.a libimgui.a
+build output/GameOfLife.exe: CXX_EXECUTABLE_LINKER__GameOfLife_Debug CMakeFiles/GameOfLife.dir/src/main.cpp.obj | libimgui.a _deps/raylib-build/raylib/libraylib.a || _deps/raylib-build/raylib/external/glfw/src/glfw _deps/raylib-build/raylib/libraylib.a libimgui.a
   FLAGS = -g -O0 -g
-  LINK_LIBRARIES = -lopengl32  build/src/libglfw3.a  libimgui.a  -lstdc++  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  LINK_LIBRARIES = libimgui.a  _deps/raylib-build/raylib/libraylib.a  -lopengl32  -lglu32  -lwinmm  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\GameOfLife.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\GameOfLife.dir\
   TARGET_FILE = output\GameOfLife.exe
   TARGET_IMPLIB = libGameOfLife.dll.a
-  TARGET_PDB = output\GameOfLife.pdb
+  TARGET_PDB = GameOfLife.exe.dbg
+
+
+#############################################
+# Utility command for package
+
+build CMakeFiles/package.util: CUSTOM_COMMAND all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Randon\Desktop\Projects\game_of_life\build && "C:\Program Files\CMake\bin\cpack.exe" --config ./CPackConfig.cmake"
+  DESC = Run CPack packaging tool...
+  pool = console
+  restat = 1
+
+build package: phony CMakeFiles/package.util
+
+
+#############################################
+# Utility command for package_source
+
+build CMakeFiles/package_source.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Randon\Desktop\Projects\game_of_life\build && "C:\Program Files\CMake\bin\cpack.exe" --config ./CPackSourceConfig.cmake C:/Users/Randon/Desktop/Projects/game_of_life/build/CPackSourceConfig.cmake"
+  DESC = Run CPack packaging tool for source...
+  pool = console
+  restat = 1
+
+build package_source: phony CMakeFiles/package_source.util
 
 
 #############################################
@@ -250,472 +248,668 @@ build install/strip: phony CMakeFiles/install/strip.util
 #############################################
 # Utility command for uninstall
 
-build build/uninstall: phony build/CMakeFiles/uninstall
+build _deps/raylib-build/uninstall: phony _deps/raylib-build/CMakeFiles/uninstall
+
+
+#############################################
+# Utility command for package
+
+build _deps/raylib-build/CMakeFiles/package.util: CUSTOM_COMMAND _deps/raylib-build/all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Randon\Desktop\Projects\game_of_life\build && "C:\Program Files\CMake\bin\cpack.exe" --config ./CPackConfig.cmake"
+  DESC = Run CPack packaging tool...
+  pool = console
+  restat = 1
+
+build _deps/raylib-build/package: phony _deps/raylib-build/CMakeFiles/package.util
+
+
+#############################################
+# Utility command for package_source
+
+build _deps/raylib-build/CMakeFiles/package_source.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Randon\Desktop\Projects\game_of_life\build && "C:\Program Files\CMake\bin\cpack.exe" --config ./CPackSourceConfig.cmake C:/Users/Randon/Desktop/Projects/game_of_life/build/CPackSourceConfig.cmake"
+  DESC = Run CPack packaging tool for source...
+  pool = console
+  restat = 1
+
+build _deps/raylib-build/package_source: phony _deps/raylib-build/CMakeFiles/package_source.util
 
 
 #############################################
 # Utility command for edit_cache
 
-build build/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Randon\Desktop\Projects\game_of_life\build\build && "C:\Program Files\CMake\bin\cmake-gui.exe" -SC:\Users\Randon\Desktop\Projects\game_of_life -BC:\Users\Randon\Desktop\Projects\game_of_life\build"
+build _deps/raylib-build/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Randon\Desktop\Projects\game_of_life\build\_deps\raylib-build && "C:\Program Files\CMake\bin\cmake-gui.exe" -SC:\Users\Randon\Desktop\Projects\game_of_life -BC:\Users\Randon\Desktop\Projects\game_of_life\build"
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
 
-build build/edit_cache: phony build/CMakeFiles/edit_cache.util
+build _deps/raylib-build/edit_cache: phony _deps/raylib-build/CMakeFiles/edit_cache.util
 
 
 #############################################
 # Utility command for rebuild_cache
 
-build build/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Randon\Desktop\Projects\game_of_life\build\build && "C:\Program Files\CMake\bin\cmake.exe" --regenerate-during-build -SC:\Users\Randon\Desktop\Projects\game_of_life -BC:\Users\Randon\Desktop\Projects\game_of_life\build"
+build _deps/raylib-build/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Randon\Desktop\Projects\game_of_life\build\_deps\raylib-build && "C:\Program Files\CMake\bin\cmake.exe" --regenerate-during-build -SC:\Users\Randon\Desktop\Projects\game_of_life -BC:\Users\Randon\Desktop\Projects\game_of_life\build"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
 
-build build/rebuild_cache: phony build/CMakeFiles/rebuild_cache.util
+build _deps/raylib-build/rebuild_cache: phony _deps/raylib-build/CMakeFiles/rebuild_cache.util
 
 
 #############################################
 # Utility command for list_install_components
 
-build build/list_install_components: phony
+build _deps/raylib-build/list_install_components: phony
 
 
 #############################################
 # Utility command for install
 
-build build/CMakeFiles/install.util: CUSTOM_COMMAND build/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Randon\Desktop\Projects\game_of_life\build\build && "C:\Program Files\CMake\bin\cmake.exe" -P cmake_install.cmake"
+build _deps/raylib-build/CMakeFiles/install.util: CUSTOM_COMMAND _deps/raylib-build/all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Randon\Desktop\Projects\game_of_life\build\_deps\raylib-build && "C:\Program Files\CMake\bin\cmake.exe" -P cmake_install.cmake"
   DESC = Install the project...
   pool = console
   restat = 1
 
-build build/install: phony build/CMakeFiles/install.util
+build _deps/raylib-build/install: phony _deps/raylib-build/CMakeFiles/install.util
 
 
 #############################################
 # Utility command for install/local
 
-build build/CMakeFiles/install/local.util: CUSTOM_COMMAND build/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Randon\Desktop\Projects\game_of_life\build\build && "C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+build _deps/raylib-build/CMakeFiles/install/local.util: CUSTOM_COMMAND _deps/raylib-build/all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Randon\Desktop\Projects\game_of_life\build\_deps\raylib-build && "C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
   DESC = Installing only the local directory...
   pool = console
   restat = 1
 
-build build/install/local: phony build/CMakeFiles/install/local.util
+build _deps/raylib-build/install/local: phony _deps/raylib-build/CMakeFiles/install/local.util
 
 
 #############################################
 # Utility command for install/strip
 
-build build/CMakeFiles/install/strip.util: CUSTOM_COMMAND build/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Randon\Desktop\Projects\game_of_life\build\build && "C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+build _deps/raylib-build/CMakeFiles/install/strip.util: CUSTOM_COMMAND _deps/raylib-build/all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Randon\Desktop\Projects\game_of_life\build\_deps\raylib-build && "C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
   DESC = Installing the project stripped...
   pool = console
   restat = 1
 
-build build/install/strip: phony build/CMakeFiles/install/strip.util
+build _deps/raylib-build/install/strip: phony _deps/raylib-build/CMakeFiles/install/strip.util
 
 
 #############################################
-# Custom command for build\CMakeFiles\uninstall
+# Custom command for _deps\raylib-build\CMakeFiles\uninstall
 
-build build/CMakeFiles/uninstall | ${cmake_ninja_workdir}build/CMakeFiles/uninstall: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Randon\Desktop\Projects\game_of_life\build\build && "C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/Randon/Desktop/Projects/game_of_life/build/build/cmake_uninstall.cmake"
+build _deps/raylib-build/CMakeFiles/uninstall | ${cmake_ninja_workdir}_deps/raylib-build/CMakeFiles/uninstall: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Randon\Desktop\Projects\game_of_life\build\_deps\raylib-build && "C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/Randon/Desktop/Projects/game_of_life/build/_deps/raylib-build/cmake_uninstall.cmake"
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# C:/Users/Randon/Desktop/Projects/game_of_life/libs/glfw/CMakeLists.txt
+# C:/Users/Randon/Desktop/Projects/game_of_life/build/_deps/raylib-src/CMakeLists.txt
 # =============================================================================
 
 # =============================================================================
-# Object build statements for STATIC_LIBRARY target glfw
+# Object build statements for STATIC_LIBRARY target raylib
+
+
+#############################################
+# Order-only phony target for raylib
+
+build cmake_object_order_depends_target_raylib: phony || cmake_object_order_depends_target_glfw
+
+build _deps/raylib-build/raylib/CMakeFiles/raylib.dir/raudio.c.obj: C_COMPILER__raylib_unscanned_Debug C$:/Users/Randon/Desktop/Projects/game_of_life/build/_deps/raylib-src/src/raudio.c || cmake_object_order_depends_target_raylib
+  DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -D_CRT_SECURE_NO_WARNINGS
+  DEP_FILE = _deps\raylib-build\raylib\CMakeFiles\raylib.dir\raudio.c.obj.d
+  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=gnu99
+  INCLUDES = -IC:/Users/Randon/Desktop/Projects/game_of_life/build/_deps/raylib-src/src -isystem C:/Users/Randon/Desktop/Projects/game_of_life/build/_deps/raylib-src/src/external/glfw/include
+  OBJECT_DIR = _deps\raylib-build\raylib\CMakeFiles\raylib.dir
+  OBJECT_FILE_DIR = _deps\raylib-build\raylib\CMakeFiles\raylib.dir
+
+build _deps/raylib-build/raylib/CMakeFiles/raylib.dir/rcore.c.obj: C_COMPILER__raylib_unscanned_Debug C$:/Users/Randon/Desktop/Projects/game_of_life/build/_deps/raylib-src/src/rcore.c || cmake_object_order_depends_target_raylib
+  DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -D_CRT_SECURE_NO_WARNINGS
+  DEP_FILE = _deps\raylib-build\raylib\CMakeFiles\raylib.dir\rcore.c.obj.d
+  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=gnu99
+  INCLUDES = -IC:/Users/Randon/Desktop/Projects/game_of_life/build/_deps/raylib-src/src -isystem C:/Users/Randon/Desktop/Projects/game_of_life/build/_deps/raylib-src/src/external/glfw/include
+  OBJECT_DIR = _deps\raylib-build\raylib\CMakeFiles\raylib.dir
+  OBJECT_FILE_DIR = _deps\raylib-build\raylib\CMakeFiles\raylib.dir
+
+build _deps/raylib-build/raylib/CMakeFiles/raylib.dir/rmodels.c.obj: C_COMPILER__raylib_unscanned_Debug C$:/Users/Randon/Desktop/Projects/game_of_life/build/_deps/raylib-src/src/rmodels.c || cmake_object_order_depends_target_raylib
+  DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -D_CRT_SECURE_NO_WARNINGS
+  DEP_FILE = _deps\raylib-build\raylib\CMakeFiles\raylib.dir\rmodels.c.obj.d
+  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=gnu99
+  INCLUDES = -IC:/Users/Randon/Desktop/Projects/game_of_life/build/_deps/raylib-src/src -isystem C:/Users/Randon/Desktop/Projects/game_of_life/build/_deps/raylib-src/src/external/glfw/include
+  OBJECT_DIR = _deps\raylib-build\raylib\CMakeFiles\raylib.dir
+  OBJECT_FILE_DIR = _deps\raylib-build\raylib\CMakeFiles\raylib.dir
+
+build _deps/raylib-build/raylib/CMakeFiles/raylib.dir/rshapes.c.obj: C_COMPILER__raylib_unscanned_Debug C$:/Users/Randon/Desktop/Projects/game_of_life/build/_deps/raylib-src/src/rshapes.c || cmake_object_order_depends_target_raylib
+  DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -D_CRT_SECURE_NO_WARNINGS
+  DEP_FILE = _deps\raylib-build\raylib\CMakeFiles\raylib.dir\rshapes.c.obj.d
+  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=gnu99
+  INCLUDES = -IC:/Users/Randon/Desktop/Projects/game_of_life/build/_deps/raylib-src/src -isystem C:/Users/Randon/Desktop/Projects/game_of_life/build/_deps/raylib-src/src/external/glfw/include
+  OBJECT_DIR = _deps\raylib-build\raylib\CMakeFiles\raylib.dir
+  OBJECT_FILE_DIR = _deps\raylib-build\raylib\CMakeFiles\raylib.dir
+
+build _deps/raylib-build/raylib/CMakeFiles/raylib.dir/rtext.c.obj: C_COMPILER__raylib_unscanned_Debug C$:/Users/Randon/Desktop/Projects/game_of_life/build/_deps/raylib-src/src/rtext.c || cmake_object_order_depends_target_raylib
+  DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -D_CRT_SECURE_NO_WARNINGS
+  DEP_FILE = _deps\raylib-build\raylib\CMakeFiles\raylib.dir\rtext.c.obj.d
+  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=gnu99
+  INCLUDES = -IC:/Users/Randon/Desktop/Projects/game_of_life/build/_deps/raylib-src/src -isystem C:/Users/Randon/Desktop/Projects/game_of_life/build/_deps/raylib-src/src/external/glfw/include
+  OBJECT_DIR = _deps\raylib-build\raylib\CMakeFiles\raylib.dir
+  OBJECT_FILE_DIR = _deps\raylib-build\raylib\CMakeFiles\raylib.dir
+
+build _deps/raylib-build/raylib/CMakeFiles/raylib.dir/rtextures.c.obj: C_COMPILER__raylib_unscanned_Debug C$:/Users/Randon/Desktop/Projects/game_of_life/build/_deps/raylib-src/src/rtextures.c || cmake_object_order_depends_target_raylib
+  DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -D_CRT_SECURE_NO_WARNINGS
+  DEP_FILE = _deps\raylib-build\raylib\CMakeFiles\raylib.dir\rtextures.c.obj.d
+  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=gnu99
+  INCLUDES = -IC:/Users/Randon/Desktop/Projects/game_of_life/build/_deps/raylib-src/src -isystem C:/Users/Randon/Desktop/Projects/game_of_life/build/_deps/raylib-src/src/external/glfw/include
+  OBJECT_DIR = _deps\raylib-build\raylib\CMakeFiles\raylib.dir
+  OBJECT_FILE_DIR = _deps\raylib-build\raylib\CMakeFiles\raylib.dir
+
+build _deps/raylib-build/raylib/CMakeFiles/raylib.dir/utils.c.obj: C_COMPILER__raylib_unscanned_Debug C$:/Users/Randon/Desktop/Projects/game_of_life/build/_deps/raylib-src/src/utils.c || cmake_object_order_depends_target_raylib
+  DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -D_CRT_SECURE_NO_WARNINGS
+  DEP_FILE = _deps\raylib-build\raylib\CMakeFiles\raylib.dir\utils.c.obj.d
+  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=gnu99
+  INCLUDES = -IC:/Users/Randon/Desktop/Projects/game_of_life/build/_deps/raylib-src/src -isystem C:/Users/Randon/Desktop/Projects/game_of_life/build/_deps/raylib-src/src/external/glfw/include
+  OBJECT_DIR = _deps\raylib-build\raylib\CMakeFiles\raylib.dir
+  OBJECT_FILE_DIR = _deps\raylib-build\raylib\CMakeFiles\raylib.dir
+
+
+# =============================================================================
+# Link build statements for STATIC_LIBRARY target raylib
+
+
+#############################################
+# Link the static library _deps\raylib-build\raylib\libraylib.a
+
+build _deps/raylib-build/raylib/libraylib.a: C_STATIC_LIBRARY_LINKER__raylib_Debug _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/context.c.obj _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/init.c.obj _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/input.c.obj _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/monitor.c.obj _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/platform.c.obj _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/vulkan.c.obj _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/window.c.obj _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/egl_context.c.obj _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.obj _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_init.c.obj _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_monitor.c.obj _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_window.c.obj _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_joystick.c.obj _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_module.c.obj _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_thread.c.obj _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.obj _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj _deps/raylib-build/raylib/CMakeFiles/raylib.dir/raudio.c.obj _deps/raylib-build/raylib/CMakeFiles/raylib.dir/rcore.c.obj _deps/raylib-build/raylib/CMakeFiles/raylib.dir/rmodels.c.obj _deps/raylib-build/raylib/CMakeFiles/raylib.dir/rshapes.c.obj _deps/raylib-build/raylib/CMakeFiles/raylib.dir/rtext.c.obj _deps/raylib-build/raylib/CMakeFiles/raylib.dir/rtextures.c.obj _deps/raylib-build/raylib/CMakeFiles/raylib.dir/utils.c.obj || _deps/raylib-build/raylib/external/glfw/src/glfw
+  LANGUAGE_COMPILE_FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g
+  OBJECT_DIR = _deps\raylib-build\raylib\CMakeFiles\raylib.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = _deps\raylib-build\raylib\libraylib.a
+  TARGET_PDB = raylib.a.dbg
+
+
+#############################################
+# Utility command for package
+
+build _deps/raylib-build/raylib/CMakeFiles/package.util: CUSTOM_COMMAND _deps/raylib-build/raylib/all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Randon\Desktop\Projects\game_of_life\build && "C:\Program Files\CMake\bin\cpack.exe" --config ./CPackConfig.cmake"
+  DESC = Run CPack packaging tool...
+  pool = console
+  restat = 1
+
+build _deps/raylib-build/raylib/package: phony _deps/raylib-build/raylib/CMakeFiles/package.util
+
+
+#############################################
+# Utility command for package_source
+
+build _deps/raylib-build/raylib/CMakeFiles/package_source.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Randon\Desktop\Projects\game_of_life\build && "C:\Program Files\CMake\bin\cpack.exe" --config ./CPackSourceConfig.cmake C:/Users/Randon/Desktop/Projects/game_of_life/build/CPackSourceConfig.cmake"
+  DESC = Run CPack packaging tool for source...
+  pool = console
+  restat = 1
+
+build _deps/raylib-build/raylib/package_source: phony _deps/raylib-build/raylib/CMakeFiles/package_source.util
+
+
+#############################################
+# Utility command for edit_cache
+
+build _deps/raylib-build/raylib/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Randon\Desktop\Projects\game_of_life\build\_deps\raylib-build\raylib && "C:\Program Files\CMake\bin\cmake-gui.exe" -SC:\Users\Randon\Desktop\Projects\game_of_life -BC:\Users\Randon\Desktop\Projects\game_of_life\build"
+  DESC = Running CMake cache editor...
+  pool = console
+  restat = 1
+
+build _deps/raylib-build/raylib/edit_cache: phony _deps/raylib-build/raylib/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build _deps/raylib-build/raylib/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Randon\Desktop\Projects\game_of_life\build\_deps\raylib-build\raylib && "C:\Program Files\CMake\bin\cmake.exe" --regenerate-during-build -SC:\Users\Randon\Desktop\Projects\game_of_life -BC:\Users\Randon\Desktop\Projects\game_of_life\build"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build _deps/raylib-build/raylib/rebuild_cache: phony _deps/raylib-build/raylib/CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Utility command for list_install_components
+
+build _deps/raylib-build/raylib/list_install_components: phony
+
+
+#############################################
+# Utility command for install
+
+build _deps/raylib-build/raylib/CMakeFiles/install.util: CUSTOM_COMMAND _deps/raylib-build/raylib/all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Randon\Desktop\Projects\game_of_life\build\_deps\raylib-build\raylib && "C:\Program Files\CMake\bin\cmake.exe" -P cmake_install.cmake"
+  DESC = Install the project...
+  pool = console
+  restat = 1
+
+build _deps/raylib-build/raylib/install: phony _deps/raylib-build/raylib/CMakeFiles/install.util
+
+
+#############################################
+# Utility command for install/local
+
+build _deps/raylib-build/raylib/CMakeFiles/install/local.util: CUSTOM_COMMAND _deps/raylib-build/raylib/all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Randon\Desktop\Projects\game_of_life\build\_deps\raylib-build\raylib && "C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  DESC = Installing only the local directory...
+  pool = console
+  restat = 1
+
+build _deps/raylib-build/raylib/install/local: phony _deps/raylib-build/raylib/CMakeFiles/install/local.util
+
+
+#############################################
+# Utility command for install/strip
+
+build _deps/raylib-build/raylib/CMakeFiles/install/strip.util: CUSTOM_COMMAND _deps/raylib-build/raylib/all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Randon\Desktop\Projects\game_of_life\build\_deps\raylib-build\raylib && "C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+  DESC = Installing the project stripped...
+  pool = console
+  restat = 1
+
+build _deps/raylib-build/raylib/install/strip: phony _deps/raylib-build/raylib/CMakeFiles/install/strip.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# C:/Users/Randon/Desktop/Projects/game_of_life/build/_deps/raylib-src/cmake/GlfwImport.cmake
+# =============================================================================
+
+
+#############################################
+# Utility command for package
+
+build _deps/raylib-build/raylib/external/glfw/CMakeFiles/package.util: CUSTOM_COMMAND _deps/raylib-build/raylib/external/glfw/all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Randon\Desktop\Projects\game_of_life\build && "C:\Program Files\CMake\bin\cpack.exe" --config ./CPackConfig.cmake"
+  DESC = Run CPack packaging tool...
+  pool = console
+  restat = 1
+
+build _deps/raylib-build/raylib/external/glfw/package: phony _deps/raylib-build/raylib/external/glfw/CMakeFiles/package.util
+
+
+#############################################
+# Utility command for package_source
+
+build _deps/raylib-build/raylib/external/glfw/CMakeFiles/package_source.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Randon\Desktop\Projects\game_of_life\build && "C:\Program Files\CMake\bin\cpack.exe" --config ./CPackSourceConfig.cmake C:/Users/Randon/Desktop/Projects/game_of_life/build/CPackSourceConfig.cmake"
+  DESC = Run CPack packaging tool for source...
+  pool = console
+  restat = 1
+
+build _deps/raylib-build/raylib/external/glfw/package_source: phony _deps/raylib-build/raylib/external/glfw/CMakeFiles/package_source.util
+
+
+#############################################
+# Utility command for edit_cache
+
+build _deps/raylib-build/raylib/external/glfw/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Randon\Desktop\Projects\game_of_life\build\_deps\raylib-build\raylib\external\glfw && "C:\Program Files\CMake\bin\cmake-gui.exe" -SC:\Users\Randon\Desktop\Projects\game_of_life -BC:\Users\Randon\Desktop\Projects\game_of_life\build"
+  DESC = Running CMake cache editor...
+  pool = console
+  restat = 1
+
+build _deps/raylib-build/raylib/external/glfw/edit_cache: phony _deps/raylib-build/raylib/external/glfw/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build _deps/raylib-build/raylib/external/glfw/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Randon\Desktop\Projects\game_of_life\build\_deps\raylib-build\raylib\external\glfw && "C:\Program Files\CMake\bin\cmake.exe" --regenerate-during-build -SC:\Users\Randon\Desktop\Projects\game_of_life -BC:\Users\Randon\Desktop\Projects\game_of_life\build"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build _deps/raylib-build/raylib/external/glfw/rebuild_cache: phony _deps/raylib-build/raylib/external/glfw/CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Utility command for list_install_components
+
+build _deps/raylib-build/raylib/external/glfw/list_install_components: phony
+
+
+#############################################
+# Utility command for install
+
+build _deps/raylib-build/raylib/external/glfw/CMakeFiles/install.util: CUSTOM_COMMAND _deps/raylib-build/raylib/external/glfw/all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Randon\Desktop\Projects\game_of_life\build\_deps\raylib-build\raylib\external\glfw && "C:\Program Files\CMake\bin\cmake.exe" -P cmake_install.cmake"
+  DESC = Install the project...
+  pool = console
+  restat = 1
+
+build _deps/raylib-build/raylib/external/glfw/install: phony _deps/raylib-build/raylib/external/glfw/CMakeFiles/install.util
+
+
+#############################################
+# Utility command for install/local
+
+build _deps/raylib-build/raylib/external/glfw/CMakeFiles/install/local.util: CUSTOM_COMMAND _deps/raylib-build/raylib/external/glfw/all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Randon\Desktop\Projects\game_of_life\build\_deps\raylib-build\raylib\external\glfw && "C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  DESC = Installing only the local directory...
+  pool = console
+  restat = 1
+
+build _deps/raylib-build/raylib/external/glfw/install/local: phony _deps/raylib-build/raylib/external/glfw/CMakeFiles/install/local.util
+
+
+#############################################
+# Utility command for install/strip
+
+build _deps/raylib-build/raylib/external/glfw/CMakeFiles/install/strip.util: CUSTOM_COMMAND _deps/raylib-build/raylib/external/glfw/all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Randon\Desktop\Projects\game_of_life\build\_deps\raylib-build\raylib\external\glfw && "C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+  DESC = Installing the project stripped...
+  pool = console
+  restat = 1
+
+build _deps/raylib-build/raylib/external/glfw/install/strip: phony _deps/raylib-build/raylib/external/glfw/CMakeFiles/install/strip.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# C:/Users/Randon/Desktop/Projects/game_of_life/build/_deps/raylib-src/src/external/glfw/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for OBJECT_LIBRARY target glfw
 
 
 #############################################
 # Order-only phony target for glfw
 
-build cmake_object_order_depends_target_glfw: phony || build/src/CMakeFiles/glfw.dir
+build cmake_object_order_depends_target_glfw: phony || _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir
 
-build build/src/CMakeFiles/glfw.dir/context.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Randon/Desktop/Projects/game_of_life/libs/glfw/src/context.c || cmake_object_order_depends_target_glfw
+build _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/context.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Randon/Desktop/Projects/game_of_life/build/_deps/raylib-src/src/external/glfw/src/context.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
-  DEP_FILE = build\src\CMakeFiles\glfw.dir\context.c.obj.d
-  FLAGS = -g -std=c99 -Wall
-  INCLUDES = -IC:/Users/Randon/Desktop/Projects/game_of_life/libs/glfw/include -IC:/Users/Randon/Desktop/Projects/game_of_life/libs/glfw/src -IC:/Users/Randon/Desktop/Projects/game_of_life/build/build/src
-  OBJECT_DIR = build\src\CMakeFiles\glfw.dir
-  OBJECT_FILE_DIR = build\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = build\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = build\src\libglfw3.pdb
+  DEP_FILE = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\context.c.obj.d
+  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall
+  INCLUDES = -IC:/Users/Randon/Desktop/Projects/game_of_life/build/_deps/raylib-src/src/external/glfw/include -IC:/Users/Randon/Desktop/Projects/game_of_life/build/_deps/raylib-src/src/external/glfw/src -IC:/Users/Randon/Desktop/Projects/game_of_life/build/_deps/raylib-build/raylib/external/glfw/src
+  OBJECT_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
+  OBJECT_FILE_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
 
-build build/src/CMakeFiles/glfw.dir/init.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Randon/Desktop/Projects/game_of_life/libs/glfw/src/init.c || cmake_object_order_depends_target_glfw
+build _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/init.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Randon/Desktop/Projects/game_of_life/build/_deps/raylib-src/src/external/glfw/src/init.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
-  DEP_FILE = build\src\CMakeFiles\glfw.dir\init.c.obj.d
-  FLAGS = -g -std=c99 -Wall
-  INCLUDES = -IC:/Users/Randon/Desktop/Projects/game_of_life/libs/glfw/include -IC:/Users/Randon/Desktop/Projects/game_of_life/libs/glfw/src -IC:/Users/Randon/Desktop/Projects/game_of_life/build/build/src
-  OBJECT_DIR = build\src\CMakeFiles\glfw.dir
-  OBJECT_FILE_DIR = build\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = build\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = build\src\libglfw3.pdb
+  DEP_FILE = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\init.c.obj.d
+  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall
+  INCLUDES = -IC:/Users/Randon/Desktop/Projects/game_of_life/build/_deps/raylib-src/src/external/glfw/include -IC:/Users/Randon/Desktop/Projects/game_of_life/build/_deps/raylib-src/src/external/glfw/src -IC:/Users/Randon/Desktop/Projects/game_of_life/build/_deps/raylib-build/raylib/external/glfw/src
+  OBJECT_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
+  OBJECT_FILE_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
 
-build build/src/CMakeFiles/glfw.dir/input.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Randon/Desktop/Projects/game_of_life/libs/glfw/src/input.c || cmake_object_order_depends_target_glfw
+build _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/input.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Randon/Desktop/Projects/game_of_life/build/_deps/raylib-src/src/external/glfw/src/input.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
-  DEP_FILE = build\src\CMakeFiles\glfw.dir\input.c.obj.d
-  FLAGS = -g -std=c99 -Wall
-  INCLUDES = -IC:/Users/Randon/Desktop/Projects/game_of_life/libs/glfw/include -IC:/Users/Randon/Desktop/Projects/game_of_life/libs/glfw/src -IC:/Users/Randon/Desktop/Projects/game_of_life/build/build/src
-  OBJECT_DIR = build\src\CMakeFiles\glfw.dir
-  OBJECT_FILE_DIR = build\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = build\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = build\src\libglfw3.pdb
+  DEP_FILE = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\input.c.obj.d
+  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall
+  INCLUDES = -IC:/Users/Randon/Desktop/Projects/game_of_life/build/_deps/raylib-src/src/external/glfw/include -IC:/Users/Randon/Desktop/Projects/game_of_life/build/_deps/raylib-src/src/external/glfw/src -IC:/Users/Randon/Desktop/Projects/game_of_life/build/_deps/raylib-build/raylib/external/glfw/src
+  OBJECT_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
+  OBJECT_FILE_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
 
-build build/src/CMakeFiles/glfw.dir/monitor.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Randon/Desktop/Projects/game_of_life/libs/glfw/src/monitor.c || cmake_object_order_depends_target_glfw
+build _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/monitor.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Randon/Desktop/Projects/game_of_life/build/_deps/raylib-src/src/external/glfw/src/monitor.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
-  DEP_FILE = build\src\CMakeFiles\glfw.dir\monitor.c.obj.d
-  FLAGS = -g -std=c99 -Wall
-  INCLUDES = -IC:/Users/Randon/Desktop/Projects/game_of_life/libs/glfw/include -IC:/Users/Randon/Desktop/Projects/game_of_life/libs/glfw/src -IC:/Users/Randon/Desktop/Projects/game_of_life/build/build/src
-  OBJECT_DIR = build\src\CMakeFiles\glfw.dir
-  OBJECT_FILE_DIR = build\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = build\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = build\src\libglfw3.pdb
+  DEP_FILE = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\monitor.c.obj.d
+  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall
+  INCLUDES = -IC:/Users/Randon/Desktop/Projects/game_of_life/build/_deps/raylib-src/src/external/glfw/include -IC:/Users/Randon/Desktop/Projects/game_of_life/build/_deps/raylib-src/src/external/glfw/src -IC:/Users/Randon/Desktop/Projects/game_of_life/build/_deps/raylib-build/raylib/external/glfw/src
+  OBJECT_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
+  OBJECT_FILE_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
 
-build build/src/CMakeFiles/glfw.dir/platform.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Randon/Desktop/Projects/game_of_life/libs/glfw/src/platform.c || cmake_object_order_depends_target_glfw
+build _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/platform.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Randon/Desktop/Projects/game_of_life/build/_deps/raylib-src/src/external/glfw/src/platform.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
-  DEP_FILE = build\src\CMakeFiles\glfw.dir\platform.c.obj.d
-  FLAGS = -g -std=c99 -Wall
-  INCLUDES = -IC:/Users/Randon/Desktop/Projects/game_of_life/libs/glfw/include -IC:/Users/Randon/Desktop/Projects/game_of_life/libs/glfw/src -IC:/Users/Randon/Desktop/Projects/game_of_life/build/build/src
-  OBJECT_DIR = build\src\CMakeFiles\glfw.dir
-  OBJECT_FILE_DIR = build\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = build\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = build\src\libglfw3.pdb
+  DEP_FILE = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\platform.c.obj.d
+  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall
+  INCLUDES = -IC:/Users/Randon/Desktop/Projects/game_of_life/build/_deps/raylib-src/src/external/glfw/include -IC:/Users/Randon/Desktop/Projects/game_of_life/build/_deps/raylib-src/src/external/glfw/src -IC:/Users/Randon/Desktop/Projects/game_of_life/build/_deps/raylib-build/raylib/external/glfw/src
+  OBJECT_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
+  OBJECT_FILE_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
 
-build build/src/CMakeFiles/glfw.dir/vulkan.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Randon/Desktop/Projects/game_of_life/libs/glfw/src/vulkan.c || cmake_object_order_depends_target_glfw
+build _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/vulkan.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Randon/Desktop/Projects/game_of_life/build/_deps/raylib-src/src/external/glfw/src/vulkan.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
-  DEP_FILE = build\src\CMakeFiles\glfw.dir\vulkan.c.obj.d
-  FLAGS = -g -std=c99 -Wall
-  INCLUDES = -IC:/Users/Randon/Desktop/Projects/game_of_life/libs/glfw/include -IC:/Users/Randon/Desktop/Projects/game_of_life/libs/glfw/src -IC:/Users/Randon/Desktop/Projects/game_of_life/build/build/src
-  OBJECT_DIR = build\src\CMakeFiles\glfw.dir
-  OBJECT_FILE_DIR = build\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = build\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = build\src\libglfw3.pdb
+  DEP_FILE = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\vulkan.c.obj.d
+  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall
+  INCLUDES = -IC:/Users/Randon/Desktop/Projects/game_of_life/build/_deps/raylib-src/src/external/glfw/include -IC:/Users/Randon/Desktop/Projects/game_of_life/build/_deps/raylib-src/src/external/glfw/src -IC:/Users/Randon/Desktop/Projects/game_of_life/build/_deps/raylib-build/raylib/external/glfw/src
+  OBJECT_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
+  OBJECT_FILE_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
 
-build build/src/CMakeFiles/glfw.dir/window.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Randon/Desktop/Projects/game_of_life/libs/glfw/src/window.c || cmake_object_order_depends_target_glfw
+build _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/window.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Randon/Desktop/Projects/game_of_life/build/_deps/raylib-src/src/external/glfw/src/window.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
-  DEP_FILE = build\src\CMakeFiles\glfw.dir\window.c.obj.d
-  FLAGS = -g -std=c99 -Wall
-  INCLUDES = -IC:/Users/Randon/Desktop/Projects/game_of_life/libs/glfw/include -IC:/Users/Randon/Desktop/Projects/game_of_life/libs/glfw/src -IC:/Users/Randon/Desktop/Projects/game_of_life/build/build/src
-  OBJECT_DIR = build\src\CMakeFiles\glfw.dir
-  OBJECT_FILE_DIR = build\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = build\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = build\src\libglfw3.pdb
+  DEP_FILE = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\window.c.obj.d
+  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall
+  INCLUDES = -IC:/Users/Randon/Desktop/Projects/game_of_life/build/_deps/raylib-src/src/external/glfw/include -IC:/Users/Randon/Desktop/Projects/game_of_life/build/_deps/raylib-src/src/external/glfw/src -IC:/Users/Randon/Desktop/Projects/game_of_life/build/_deps/raylib-build/raylib/external/glfw/src
+  OBJECT_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
+  OBJECT_FILE_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
 
-build build/src/CMakeFiles/glfw.dir/egl_context.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Randon/Desktop/Projects/game_of_life/libs/glfw/src/egl_context.c || cmake_object_order_depends_target_glfw
+build _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/egl_context.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Randon/Desktop/Projects/game_of_life/build/_deps/raylib-src/src/external/glfw/src/egl_context.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
-  DEP_FILE = build\src\CMakeFiles\glfw.dir\egl_context.c.obj.d
-  FLAGS = -g -std=c99 -Wall
-  INCLUDES = -IC:/Users/Randon/Desktop/Projects/game_of_life/libs/glfw/include -IC:/Users/Randon/Desktop/Projects/game_of_life/libs/glfw/src -IC:/Users/Randon/Desktop/Projects/game_of_life/build/build/src
-  OBJECT_DIR = build\src\CMakeFiles\glfw.dir
-  OBJECT_FILE_DIR = build\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = build\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = build\src\libglfw3.pdb
+  DEP_FILE = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\egl_context.c.obj.d
+  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall
+  INCLUDES = -IC:/Users/Randon/Desktop/Projects/game_of_life/build/_deps/raylib-src/src/external/glfw/include -IC:/Users/Randon/Desktop/Projects/game_of_life/build/_deps/raylib-src/src/external/glfw/src -IC:/Users/Randon/Desktop/Projects/game_of_life/build/_deps/raylib-build/raylib/external/glfw/src
+  OBJECT_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
+  OBJECT_FILE_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
 
-build build/src/CMakeFiles/glfw.dir/osmesa_context.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Randon/Desktop/Projects/game_of_life/libs/glfw/src/osmesa_context.c || cmake_object_order_depends_target_glfw
+build _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Randon/Desktop/Projects/game_of_life/build/_deps/raylib-src/src/external/glfw/src/osmesa_context.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
-  DEP_FILE = build\src\CMakeFiles\glfw.dir\osmesa_context.c.obj.d
-  FLAGS = -g -std=c99 -Wall
-  INCLUDES = -IC:/Users/Randon/Desktop/Projects/game_of_life/libs/glfw/include -IC:/Users/Randon/Desktop/Projects/game_of_life/libs/glfw/src -IC:/Users/Randon/Desktop/Projects/game_of_life/build/build/src
-  OBJECT_DIR = build\src\CMakeFiles\glfw.dir
-  OBJECT_FILE_DIR = build\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = build\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = build\src\libglfw3.pdb
+  DEP_FILE = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\osmesa_context.c.obj.d
+  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall
+  INCLUDES = -IC:/Users/Randon/Desktop/Projects/game_of_life/build/_deps/raylib-src/src/external/glfw/include -IC:/Users/Randon/Desktop/Projects/game_of_life/build/_deps/raylib-src/src/external/glfw/src -IC:/Users/Randon/Desktop/Projects/game_of_life/build/_deps/raylib-build/raylib/external/glfw/src
+  OBJECT_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
+  OBJECT_FILE_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
 
-build build/src/CMakeFiles/glfw.dir/null_init.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Randon/Desktop/Projects/game_of_life/libs/glfw/src/null_init.c || cmake_object_order_depends_target_glfw
+build _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_init.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Randon/Desktop/Projects/game_of_life/build/_deps/raylib-src/src/external/glfw/src/null_init.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
-  DEP_FILE = build\src\CMakeFiles\glfw.dir\null_init.c.obj.d
-  FLAGS = -g -std=c99 -Wall
-  INCLUDES = -IC:/Users/Randon/Desktop/Projects/game_of_life/libs/glfw/include -IC:/Users/Randon/Desktop/Projects/game_of_life/libs/glfw/src -IC:/Users/Randon/Desktop/Projects/game_of_life/build/build/src
-  OBJECT_DIR = build\src\CMakeFiles\glfw.dir
-  OBJECT_FILE_DIR = build\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = build\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = build\src\libglfw3.pdb
+  DEP_FILE = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\null_init.c.obj.d
+  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall
+  INCLUDES = -IC:/Users/Randon/Desktop/Projects/game_of_life/build/_deps/raylib-src/src/external/glfw/include -IC:/Users/Randon/Desktop/Projects/game_of_life/build/_deps/raylib-src/src/external/glfw/src -IC:/Users/Randon/Desktop/Projects/game_of_life/build/_deps/raylib-build/raylib/external/glfw/src
+  OBJECT_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
+  OBJECT_FILE_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
 
-build build/src/CMakeFiles/glfw.dir/null_monitor.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Randon/Desktop/Projects/game_of_life/libs/glfw/src/null_monitor.c || cmake_object_order_depends_target_glfw
+build _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_monitor.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Randon/Desktop/Projects/game_of_life/build/_deps/raylib-src/src/external/glfw/src/null_monitor.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
-  DEP_FILE = build\src\CMakeFiles\glfw.dir\null_monitor.c.obj.d
-  FLAGS = -g -std=c99 -Wall
-  INCLUDES = -IC:/Users/Randon/Desktop/Projects/game_of_life/libs/glfw/include -IC:/Users/Randon/Desktop/Projects/game_of_life/libs/glfw/src -IC:/Users/Randon/Desktop/Projects/game_of_life/build/build/src
-  OBJECT_DIR = build\src\CMakeFiles\glfw.dir
-  OBJECT_FILE_DIR = build\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = build\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = build\src\libglfw3.pdb
+  DEP_FILE = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\null_monitor.c.obj.d
+  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall
+  INCLUDES = -IC:/Users/Randon/Desktop/Projects/game_of_life/build/_deps/raylib-src/src/external/glfw/include -IC:/Users/Randon/Desktop/Projects/game_of_life/build/_deps/raylib-src/src/external/glfw/src -IC:/Users/Randon/Desktop/Projects/game_of_life/build/_deps/raylib-build/raylib/external/glfw/src
+  OBJECT_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
+  OBJECT_FILE_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
 
-build build/src/CMakeFiles/glfw.dir/null_window.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Randon/Desktop/Projects/game_of_life/libs/glfw/src/null_window.c || cmake_object_order_depends_target_glfw
+build _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_window.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Randon/Desktop/Projects/game_of_life/build/_deps/raylib-src/src/external/glfw/src/null_window.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
-  DEP_FILE = build\src\CMakeFiles\glfw.dir\null_window.c.obj.d
-  FLAGS = -g -std=c99 -Wall
-  INCLUDES = -IC:/Users/Randon/Desktop/Projects/game_of_life/libs/glfw/include -IC:/Users/Randon/Desktop/Projects/game_of_life/libs/glfw/src -IC:/Users/Randon/Desktop/Projects/game_of_life/build/build/src
-  OBJECT_DIR = build\src\CMakeFiles\glfw.dir
-  OBJECT_FILE_DIR = build\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = build\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = build\src\libglfw3.pdb
+  DEP_FILE = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\null_window.c.obj.d
+  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall
+  INCLUDES = -IC:/Users/Randon/Desktop/Projects/game_of_life/build/_deps/raylib-src/src/external/glfw/include -IC:/Users/Randon/Desktop/Projects/game_of_life/build/_deps/raylib-src/src/external/glfw/src -IC:/Users/Randon/Desktop/Projects/game_of_life/build/_deps/raylib-build/raylib/external/glfw/src
+  OBJECT_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
+  OBJECT_FILE_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
 
-build build/src/CMakeFiles/glfw.dir/null_joystick.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Randon/Desktop/Projects/game_of_life/libs/glfw/src/null_joystick.c || cmake_object_order_depends_target_glfw
+build _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_joystick.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Randon/Desktop/Projects/game_of_life/build/_deps/raylib-src/src/external/glfw/src/null_joystick.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
-  DEP_FILE = build\src\CMakeFiles\glfw.dir\null_joystick.c.obj.d
-  FLAGS = -g -std=c99 -Wall
-  INCLUDES = -IC:/Users/Randon/Desktop/Projects/game_of_life/libs/glfw/include -IC:/Users/Randon/Desktop/Projects/game_of_life/libs/glfw/src -IC:/Users/Randon/Desktop/Projects/game_of_life/build/build/src
-  OBJECT_DIR = build\src\CMakeFiles\glfw.dir
-  OBJECT_FILE_DIR = build\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = build\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = build\src\libglfw3.pdb
+  DEP_FILE = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\null_joystick.c.obj.d
+  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall
+  INCLUDES = -IC:/Users/Randon/Desktop/Projects/game_of_life/build/_deps/raylib-src/src/external/glfw/include -IC:/Users/Randon/Desktop/Projects/game_of_life/build/_deps/raylib-src/src/external/glfw/src -IC:/Users/Randon/Desktop/Projects/game_of_life/build/_deps/raylib-build/raylib/external/glfw/src
+  OBJECT_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
+  OBJECT_FILE_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
 
-build build/src/CMakeFiles/glfw.dir/win32_module.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Randon/Desktop/Projects/game_of_life/libs/glfw/src/win32_module.c || cmake_object_order_depends_target_glfw
+build _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_module.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Randon/Desktop/Projects/game_of_life/build/_deps/raylib-src/src/external/glfw/src/win32_module.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
-  DEP_FILE = build\src\CMakeFiles\glfw.dir\win32_module.c.obj.d
-  FLAGS = -g -std=c99 -Wall
-  INCLUDES = -IC:/Users/Randon/Desktop/Projects/game_of_life/libs/glfw/include -IC:/Users/Randon/Desktop/Projects/game_of_life/libs/glfw/src -IC:/Users/Randon/Desktop/Projects/game_of_life/build/build/src
-  OBJECT_DIR = build\src\CMakeFiles\glfw.dir
-  OBJECT_FILE_DIR = build\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = build\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = build\src\libglfw3.pdb
+  DEP_FILE = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\win32_module.c.obj.d
+  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall
+  INCLUDES = -IC:/Users/Randon/Desktop/Projects/game_of_life/build/_deps/raylib-src/src/external/glfw/include -IC:/Users/Randon/Desktop/Projects/game_of_life/build/_deps/raylib-src/src/external/glfw/src -IC:/Users/Randon/Desktop/Projects/game_of_life/build/_deps/raylib-build/raylib/external/glfw/src
+  OBJECT_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
+  OBJECT_FILE_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
 
-build build/src/CMakeFiles/glfw.dir/win32_time.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Randon/Desktop/Projects/game_of_life/libs/glfw/src/win32_time.c || cmake_object_order_depends_target_glfw
+build _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Randon/Desktop/Projects/game_of_life/build/_deps/raylib-src/src/external/glfw/src/win32_time.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
-  DEP_FILE = build\src\CMakeFiles\glfw.dir\win32_time.c.obj.d
-  FLAGS = -g -std=c99 -Wall
-  INCLUDES = -IC:/Users/Randon/Desktop/Projects/game_of_life/libs/glfw/include -IC:/Users/Randon/Desktop/Projects/game_of_life/libs/glfw/src -IC:/Users/Randon/Desktop/Projects/game_of_life/build/build/src
-  OBJECT_DIR = build\src\CMakeFiles\glfw.dir
-  OBJECT_FILE_DIR = build\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = build\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = build\src\libglfw3.pdb
+  DEP_FILE = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\win32_time.c.obj.d
+  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall
+  INCLUDES = -IC:/Users/Randon/Desktop/Projects/game_of_life/build/_deps/raylib-src/src/external/glfw/include -IC:/Users/Randon/Desktop/Projects/game_of_life/build/_deps/raylib-src/src/external/glfw/src -IC:/Users/Randon/Desktop/Projects/game_of_life/build/_deps/raylib-build/raylib/external/glfw/src
+  OBJECT_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
+  OBJECT_FILE_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
 
-build build/src/CMakeFiles/glfw.dir/win32_thread.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Randon/Desktop/Projects/game_of_life/libs/glfw/src/win32_thread.c || cmake_object_order_depends_target_glfw
+build _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_thread.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Randon/Desktop/Projects/game_of_life/build/_deps/raylib-src/src/external/glfw/src/win32_thread.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
-  DEP_FILE = build\src\CMakeFiles\glfw.dir\win32_thread.c.obj.d
-  FLAGS = -g -std=c99 -Wall
-  INCLUDES = -IC:/Users/Randon/Desktop/Projects/game_of_life/libs/glfw/include -IC:/Users/Randon/Desktop/Projects/game_of_life/libs/glfw/src -IC:/Users/Randon/Desktop/Projects/game_of_life/build/build/src
-  OBJECT_DIR = build\src\CMakeFiles\glfw.dir
-  OBJECT_FILE_DIR = build\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = build\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = build\src\libglfw3.pdb
+  DEP_FILE = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\win32_thread.c.obj.d
+  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall
+  INCLUDES = -IC:/Users/Randon/Desktop/Projects/game_of_life/build/_deps/raylib-src/src/external/glfw/include -IC:/Users/Randon/Desktop/Projects/game_of_life/build/_deps/raylib-src/src/external/glfw/src -IC:/Users/Randon/Desktop/Projects/game_of_life/build/_deps/raylib-build/raylib/external/glfw/src
+  OBJECT_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
+  OBJECT_FILE_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
 
-build build/src/CMakeFiles/glfw.dir/win32_init.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Randon/Desktop/Projects/game_of_life/libs/glfw/src/win32_init.c || cmake_object_order_depends_target_glfw
+build _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Randon/Desktop/Projects/game_of_life/build/_deps/raylib-src/src/external/glfw/src/win32_init.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
-  DEP_FILE = build\src\CMakeFiles\glfw.dir\win32_init.c.obj.d
-  FLAGS = -g -std=c99 -Wall
-  INCLUDES = -IC:/Users/Randon/Desktop/Projects/game_of_life/libs/glfw/include -IC:/Users/Randon/Desktop/Projects/game_of_life/libs/glfw/src -IC:/Users/Randon/Desktop/Projects/game_of_life/build/build/src
-  OBJECT_DIR = build\src\CMakeFiles\glfw.dir
-  OBJECT_FILE_DIR = build\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = build\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = build\src\libglfw3.pdb
+  DEP_FILE = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\win32_init.c.obj.d
+  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall
+  INCLUDES = -IC:/Users/Randon/Desktop/Projects/game_of_life/build/_deps/raylib-src/src/external/glfw/include -IC:/Users/Randon/Desktop/Projects/game_of_life/build/_deps/raylib-src/src/external/glfw/src -IC:/Users/Randon/Desktop/Projects/game_of_life/build/_deps/raylib-build/raylib/external/glfw/src
+  OBJECT_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
+  OBJECT_FILE_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
 
-build build/src/CMakeFiles/glfw.dir/win32_joystick.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Randon/Desktop/Projects/game_of_life/libs/glfw/src/win32_joystick.c || cmake_object_order_depends_target_glfw
+build _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Randon/Desktop/Projects/game_of_life/build/_deps/raylib-src/src/external/glfw/src/win32_joystick.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
-  DEP_FILE = build\src\CMakeFiles\glfw.dir\win32_joystick.c.obj.d
-  FLAGS = -g -std=c99 -Wall
-  INCLUDES = -IC:/Users/Randon/Desktop/Projects/game_of_life/libs/glfw/include -IC:/Users/Randon/Desktop/Projects/game_of_life/libs/glfw/src -IC:/Users/Randon/Desktop/Projects/game_of_life/build/build/src
-  OBJECT_DIR = build\src\CMakeFiles\glfw.dir
-  OBJECT_FILE_DIR = build\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = build\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = build\src\libglfw3.pdb
+  DEP_FILE = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\win32_joystick.c.obj.d
+  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall
+  INCLUDES = -IC:/Users/Randon/Desktop/Projects/game_of_life/build/_deps/raylib-src/src/external/glfw/include -IC:/Users/Randon/Desktop/Projects/game_of_life/build/_deps/raylib-src/src/external/glfw/src -IC:/Users/Randon/Desktop/Projects/game_of_life/build/_deps/raylib-build/raylib/external/glfw/src
+  OBJECT_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
+  OBJECT_FILE_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
 
-build build/src/CMakeFiles/glfw.dir/win32_monitor.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Randon/Desktop/Projects/game_of_life/libs/glfw/src/win32_monitor.c || cmake_object_order_depends_target_glfw
+build _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Randon/Desktop/Projects/game_of_life/build/_deps/raylib-src/src/external/glfw/src/win32_monitor.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
-  DEP_FILE = build\src\CMakeFiles\glfw.dir\win32_monitor.c.obj.d
-  FLAGS = -g -std=c99 -Wall
-  INCLUDES = -IC:/Users/Randon/Desktop/Projects/game_of_life/libs/glfw/include -IC:/Users/Randon/Desktop/Projects/game_of_life/libs/glfw/src -IC:/Users/Randon/Desktop/Projects/game_of_life/build/build/src
-  OBJECT_DIR = build\src\CMakeFiles\glfw.dir
-  OBJECT_FILE_DIR = build\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = build\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = build\src\libglfw3.pdb
+  DEP_FILE = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\win32_monitor.c.obj.d
+  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall
+  INCLUDES = -IC:/Users/Randon/Desktop/Projects/game_of_life/build/_deps/raylib-src/src/external/glfw/include -IC:/Users/Randon/Desktop/Projects/game_of_life/build/_deps/raylib-src/src/external/glfw/src -IC:/Users/Randon/Desktop/Projects/game_of_life/build/_deps/raylib-build/raylib/external/glfw/src
+  OBJECT_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
+  OBJECT_FILE_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
 
-build build/src/CMakeFiles/glfw.dir/win32_window.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Randon/Desktop/Projects/game_of_life/libs/glfw/src/win32_window.c || cmake_object_order_depends_target_glfw
+build _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Randon/Desktop/Projects/game_of_life/build/_deps/raylib-src/src/external/glfw/src/win32_window.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
-  DEP_FILE = build\src\CMakeFiles\glfw.dir\win32_window.c.obj.d
-  FLAGS = -g -std=c99 -Wall
-  INCLUDES = -IC:/Users/Randon/Desktop/Projects/game_of_life/libs/glfw/include -IC:/Users/Randon/Desktop/Projects/game_of_life/libs/glfw/src -IC:/Users/Randon/Desktop/Projects/game_of_life/build/build/src
-  OBJECT_DIR = build\src\CMakeFiles\glfw.dir
-  OBJECT_FILE_DIR = build\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = build\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = build\src\libglfw3.pdb
+  DEP_FILE = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\win32_window.c.obj.d
+  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall
+  INCLUDES = -IC:/Users/Randon/Desktop/Projects/game_of_life/build/_deps/raylib-src/src/external/glfw/include -IC:/Users/Randon/Desktop/Projects/game_of_life/build/_deps/raylib-src/src/external/glfw/src -IC:/Users/Randon/Desktop/Projects/game_of_life/build/_deps/raylib-build/raylib/external/glfw/src
+  OBJECT_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
+  OBJECT_FILE_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
 
-build build/src/CMakeFiles/glfw.dir/wgl_context.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Randon/Desktop/Projects/game_of_life/libs/glfw/src/wgl_context.c || cmake_object_order_depends_target_glfw
+build _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/Randon/Desktop/Projects/game_of_life/build/_deps/raylib-src/src/external/glfw/src/wgl_context.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
-  DEP_FILE = build\src\CMakeFiles\glfw.dir\wgl_context.c.obj.d
-  FLAGS = -g -std=c99 -Wall
-  INCLUDES = -IC:/Users/Randon/Desktop/Projects/game_of_life/libs/glfw/include -IC:/Users/Randon/Desktop/Projects/game_of_life/libs/glfw/src -IC:/Users/Randon/Desktop/Projects/game_of_life/build/build/src
-  OBJECT_DIR = build\src\CMakeFiles\glfw.dir
-  OBJECT_FILE_DIR = build\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = build\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = build\src\libglfw3.pdb
+  DEP_FILE = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir\wgl_context.c.obj.d
+  FLAGS = -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -g -std=c99 -Wall
+  INCLUDES = -IC:/Users/Randon/Desktop/Projects/game_of_life/build/_deps/raylib-src/src/external/glfw/include -IC:/Users/Randon/Desktop/Projects/game_of_life/build/_deps/raylib-src/src/external/glfw/src -IC:/Users/Randon/Desktop/Projects/game_of_life/build/_deps/raylib-build/raylib/external/glfw/src
+  OBJECT_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
+  OBJECT_FILE_DIR = _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\glfw.dir
 
-
-# =============================================================================
-# Link build statements for STATIC_LIBRARY target glfw
 
 
 #############################################
-# Link the static library build\src\libglfw3.a
+# Object library glfw
 
-build build/src/libglfw3.a: C_STATIC_LIBRARY_LINKER__glfw_Debug build/src/CMakeFiles/glfw.dir/context.c.obj build/src/CMakeFiles/glfw.dir/init.c.obj build/src/CMakeFiles/glfw.dir/input.c.obj build/src/CMakeFiles/glfw.dir/monitor.c.obj build/src/CMakeFiles/glfw.dir/platform.c.obj build/src/CMakeFiles/glfw.dir/vulkan.c.obj build/src/CMakeFiles/glfw.dir/window.c.obj build/src/CMakeFiles/glfw.dir/egl_context.c.obj build/src/CMakeFiles/glfw.dir/osmesa_context.c.obj build/src/CMakeFiles/glfw.dir/null_init.c.obj build/src/CMakeFiles/glfw.dir/null_monitor.c.obj build/src/CMakeFiles/glfw.dir/null_window.c.obj build/src/CMakeFiles/glfw.dir/null_joystick.c.obj build/src/CMakeFiles/glfw.dir/win32_module.c.obj build/src/CMakeFiles/glfw.dir/win32_time.c.obj build/src/CMakeFiles/glfw.dir/win32_thread.c.obj build/src/CMakeFiles/glfw.dir/win32_init.c.obj build/src/CMakeFiles/glfw.dir/win32_joystick.c.obj build/src/CMakeFiles/glfw.dir/win32_monitor.c.obj build/src/CMakeFiles/glfw.dir/win32_window.c.obj build/src/CMakeFiles/glfw.dir/wgl_context.c.obj
-  LANGUAGE_COMPILE_FLAGS = -g
-  OBJECT_DIR = build\src\CMakeFiles\glfw.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_COMPILE_PDB = build\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_FILE = build\src\libglfw3.a
-  TARGET_PDB = build\src\libglfw3.pdb
+build _deps/raylib-build/raylib/external/glfw/src/glfw: phony _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/context.c.obj _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/init.c.obj _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/input.c.obj _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/monitor.c.obj _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/platform.c.obj _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/vulkan.c.obj _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/window.c.obj _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/egl_context.c.obj _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.obj _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_init.c.obj _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_monitor.c.obj _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_window.c.obj _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/null_joystick.c.obj _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_module.c.obj _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_thread.c.obj _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.obj _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj
 
 
 #############################################
 # Utility command for update_mappings
 
-build build/src/update_mappings: phony build/src/CMakeFiles/update_mappings
+build _deps/raylib-build/raylib/external/glfw/src/update_mappings: phony _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/update_mappings
+
+
+#############################################
+# Utility command for package
+
+build _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/package.util: CUSTOM_COMMAND _deps/raylib-build/raylib/external/glfw/src/all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Randon\Desktop\Projects\game_of_life\build && "C:\Program Files\CMake\bin\cpack.exe" --config ./CPackConfig.cmake"
+  DESC = Run CPack packaging tool...
+  pool = console
+  restat = 1
+
+build _deps/raylib-build/raylib/external/glfw/src/package: phony _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/package.util
+
+
+#############################################
+# Utility command for package_source
+
+build _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/package_source.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Randon\Desktop\Projects\game_of_life\build && "C:\Program Files\CMake\bin\cpack.exe" --config ./CPackSourceConfig.cmake C:/Users/Randon/Desktop/Projects/game_of_life/build/CPackSourceConfig.cmake"
+  DESC = Run CPack packaging tool for source...
+  pool = console
+  restat = 1
+
+build _deps/raylib-build/raylib/external/glfw/src/package_source: phony _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/package_source.util
 
 
 #############################################
 # Utility command for edit_cache
 
-build build/src/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Randon\Desktop\Projects\game_of_life\build\build\src && "C:\Program Files\CMake\bin\cmake-gui.exe" -SC:\Users\Randon\Desktop\Projects\game_of_life -BC:\Users\Randon\Desktop\Projects\game_of_life\build"
+build _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Randon\Desktop\Projects\game_of_life\build\_deps\raylib-build\raylib\external\glfw\src && "C:\Program Files\CMake\bin\cmake-gui.exe" -SC:\Users\Randon\Desktop\Projects\game_of_life -BC:\Users\Randon\Desktop\Projects\game_of_life\build"
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
 
-build build/src/edit_cache: phony build/src/CMakeFiles/edit_cache.util
+build _deps/raylib-build/raylib/external/glfw/src/edit_cache: phony _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/edit_cache.util
 
 
 #############################################
 # Utility command for rebuild_cache
 
-build build/src/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Randon\Desktop\Projects\game_of_life\build\build\src && "C:\Program Files\CMake\bin\cmake.exe" --regenerate-during-build -SC:\Users\Randon\Desktop\Projects\game_of_life -BC:\Users\Randon\Desktop\Projects\game_of_life\build"
+build _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Randon\Desktop\Projects\game_of_life\build\_deps\raylib-build\raylib\external\glfw\src && "C:\Program Files\CMake\bin\cmake.exe" --regenerate-during-build -SC:\Users\Randon\Desktop\Projects\game_of_life -BC:\Users\Randon\Desktop\Projects\game_of_life\build"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
 
-build build/src/rebuild_cache: phony build/src/CMakeFiles/rebuild_cache.util
+build _deps/raylib-build/raylib/external/glfw/src/rebuild_cache: phony _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/rebuild_cache.util
 
 
 #############################################
 # Utility command for list_install_components
 
-build build/src/list_install_components: phony
+build _deps/raylib-build/raylib/external/glfw/src/list_install_components: phony
 
 
 #############################################
 # Utility command for install
 
-build build/src/CMakeFiles/install.util: CUSTOM_COMMAND build/src/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Randon\Desktop\Projects\game_of_life\build\build\src && "C:\Program Files\CMake\bin\cmake.exe" -P cmake_install.cmake"
+build _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/install.util: CUSTOM_COMMAND _deps/raylib-build/raylib/external/glfw/src/all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Randon\Desktop\Projects\game_of_life\build\_deps\raylib-build\raylib\external\glfw\src && "C:\Program Files\CMake\bin\cmake.exe" -P cmake_install.cmake"
   DESC = Install the project...
   pool = console
   restat = 1
 
-build build/src/install: phony build/src/CMakeFiles/install.util
+build _deps/raylib-build/raylib/external/glfw/src/install: phony _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/install.util
 
 
 #############################################
 # Utility command for install/local
 
-build build/src/CMakeFiles/install/local.util: CUSTOM_COMMAND build/src/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Randon\Desktop\Projects\game_of_life\build\build\src && "C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+build _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/install/local.util: CUSTOM_COMMAND _deps/raylib-build/raylib/external/glfw/src/all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Randon\Desktop\Projects\game_of_life\build\_deps\raylib-build\raylib\external\glfw\src && "C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
   DESC = Installing only the local directory...
   pool = console
   restat = 1
 
-build build/src/install/local: phony build/src/CMakeFiles/install/local.util
+build _deps/raylib-build/raylib/external/glfw/src/install/local: phony _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/install/local.util
 
 
 #############################################
 # Utility command for install/strip
 
-build build/src/CMakeFiles/install/strip.util: CUSTOM_COMMAND build/src/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Randon\Desktop\Projects\game_of_life\build\build\src && "C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+build _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/install/strip.util: CUSTOM_COMMAND _deps/raylib-build/raylib/external/glfw/src/all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Randon\Desktop\Projects\game_of_life\build\_deps\raylib-build\raylib\external\glfw\src && "C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
   DESC = Installing the project stripped...
   pool = console
   restat = 1
 
-build build/src/install/strip: phony build/src/CMakeFiles/install/strip.util
+build _deps/raylib-build/raylib/external/glfw/src/install/strip: phony _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/install/strip.util
 
 
 #############################################
-# Custom command for build\src\CMakeFiles\update_mappings
+# Custom command for _deps\raylib-build\raylib\external\glfw\src\CMakeFiles\update_mappings
 
-build build/src/CMakeFiles/update_mappings | ${cmake_ninja_workdir}build/src/CMakeFiles/update_mappings: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Randon\Desktop\Projects\game_of_life\libs\glfw\src && "C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/Randon/Desktop/Projects/game_of_life/libs/glfw/CMake/GenerateMappings.cmake mappings.h.in mappings.h"
+build _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/update_mappings | ${cmake_ninja_workdir}_deps/raylib-build/raylib/external/glfw/src/CMakeFiles/update_mappings: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Randon\Desktop\Projects\game_of_life\build\_deps\raylib-src\src\external\glfw\src && "C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/Randon/Desktop/Projects/game_of_life/build/_deps/raylib-src/src/external/glfw/CMake/GenerateMappings.cmake mappings.h.in mappings.h"
   DESC = Updating gamepad mappings from upstream repository
-
-# =============================================================================
-# Write statements declared in CMakeLists.txt:
-# C:/Users/Randon/Desktop/Projects/game_of_life/libs/glfw/CMakeLists.txt
-# =============================================================================
-
-
-#############################################
-# Utility command for edit_cache
-
-build build/docs/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Randon\Desktop\Projects\game_of_life\build\build\docs && "C:\Program Files\CMake\bin\cmake-gui.exe" -SC:\Users\Randon\Desktop\Projects\game_of_life -BC:\Users\Randon\Desktop\Projects\game_of_life\build"
-  DESC = Running CMake cache editor...
-  pool = console
-  restat = 1
-
-build build/docs/edit_cache: phony build/docs/CMakeFiles/edit_cache.util
-
-
-#############################################
-# Utility command for rebuild_cache
-
-build build/docs/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Randon\Desktop\Projects\game_of_life\build\build\docs && "C:\Program Files\CMake\bin\cmake.exe" --regenerate-during-build -SC:\Users\Randon\Desktop\Projects\game_of_life -BC:\Users\Randon\Desktop\Projects\game_of_life\build"
-  DESC = Running CMake to regenerate build system...
-  pool = console
-  restat = 1
-
-build build/docs/rebuild_cache: phony build/docs/CMakeFiles/rebuild_cache.util
-
-
-#############################################
-# Utility command for list_install_components
-
-build build/docs/list_install_components: phony
-
-
-#############################################
-# Utility command for install
-
-build build/docs/CMakeFiles/install.util: CUSTOM_COMMAND build/docs/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Randon\Desktop\Projects\game_of_life\build\build\docs && "C:\Program Files\CMake\bin\cmake.exe" -P cmake_install.cmake"
-  DESC = Install the project...
-  pool = console
-  restat = 1
-
-build build/docs/install: phony build/docs/CMakeFiles/install.util
-
-
-#############################################
-# Utility command for install/local
-
-build build/docs/CMakeFiles/install/local.util: CUSTOM_COMMAND build/docs/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Randon\Desktop\Projects\game_of_life\build\build\docs && "C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
-  DESC = Installing only the local directory...
-  pool = console
-  restat = 1
-
-build build/docs/install/local: phony build/docs/CMakeFiles/install/local.util
-
-
-#############################################
-# Utility command for install/strip
-
-build build/docs/CMakeFiles/install/strip.util: CUSTOM_COMMAND build/docs/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Randon\Desktop\Projects\game_of_life\build\build\docs && "C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
-  DESC = Installing the project stripped...
-  pool = console
-  restat = 1
-
-build build/docs/install/strip: phony build/docs/CMakeFiles/install/strip.util
 
 # =============================================================================
 # Target aliases.
@@ -724,15 +918,17 @@ build GameOfLife: phony output/GameOfLife.exe
 
 build GameOfLife.exe: phony output/GameOfLife.exe
 
-build glfw: phony build/src/libglfw3.a
+build glfw: phony _deps/raylib-build/raylib/external/glfw/src/glfw
 
 build imgui: phony libimgui.a
 
-build libglfw3.a: phony build/src/libglfw3.a
+build libraylib.a: phony _deps/raylib-build/raylib/libraylib.a
 
-build uninstall: phony build/uninstall
+build raylib: phony _deps/raylib-build/raylib/libraylib.a
 
-build update_mappings: phony build/src/update_mappings
+build uninstall: phony _deps/raylib-build/uninstall
+
+build update_mappings: phony _deps/raylib-build/raylib/external/glfw/src/update_mappings
 
 # =============================================================================
 # Folder targets.
@@ -742,28 +938,35 @@ build update_mappings: phony build/src/update_mappings
 #############################################
 # Folder: C:/Users/Randon/Desktop/Projects/game_of_life/build
 
-build all: phony libimgui.a output/GameOfLife.exe build/all
+build all: phony libimgui.a output/GameOfLife.exe _deps/raylib-build/all
 
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/Randon/Desktop/Projects/game_of_life/build/build
+# Folder: C:/Users/Randon/Desktop/Projects/game_of_life/build/_deps/raylib-build
 
-build build/all: phony build/src/all build/docs/all
-
-# =============================================================================
-
-#############################################
-# Folder: C:/Users/Randon/Desktop/Projects/game_of_life/build/build/docs
-
-build build/docs/all: phony
+build _deps/raylib-build/all: phony _deps/raylib-build/raylib/all
 
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/Randon/Desktop/Projects/game_of_life/build/build/src
+# Folder: C:/Users/Randon/Desktop/Projects/game_of_life/build/_deps/raylib-build/raylib
 
-build build/src/all: phony build/src/libglfw3.a
+build _deps/raylib-build/raylib/all: phony _deps/raylib-build/raylib/libraylib.a _deps/raylib-build/raylib/external/glfw/all
+
+# =============================================================================
+
+#############################################
+# Folder: C:/Users/Randon/Desktop/Projects/game_of_life/build/_deps/raylib-build/raylib/external/glfw
+
+build _deps/raylib-build/raylib/external/glfw/all: phony _deps/raylib-build/raylib/external/glfw/src/all
+
+# =============================================================================
+
+#############################################
+# Folder: C:/Users/Randon/Desktop/Projects/game_of_life/build/_deps/raylib-build/raylib/external/glfw/src
+
+build _deps/raylib-build/raylib/external/glfw/src/all: phony _deps/raylib-build/raylib/external/glfw/src/glfw
 
 # =============================================================================
 # Built-in targets
@@ -772,14 +975,14 @@ build build/src/all: phony build/src/libglfw3.a
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | C$:/Program$ Files/CMake/share/cmake-3.28/Modules/BasicConfigVersion-SameMajorVersion.cmake.in C$:/Program$ Files/CMake/share/cmake-3.28/Modules/CMakeCCompiler.cmake.in C$:/Program$ Files/CMake/share/cmake-3.28/Modules/CMakeCCompilerABI.c C$:/Program$ Files/CMake/share/cmake-3.28/Modules/CMakeCInformation.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/CMakeCXXCompiler.cmake.in C$:/Program$ Files/CMake/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp C$:/Program$ Files/CMake/share/cmake-3.28/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/CMakeCompilerIdDetection.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/CMakeDependentOption.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompileFeatures.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/CMakeDetermineRCCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/CMakeFindBinUtils.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/CMakeNinjaFindMake.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/CMakePackageConfigHelpers.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/CMakeParseImplicitIncludeInfo.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/CMakeParseImplicitLinkInfo.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/CMakeParseLibraryArchitecture.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/CMakeRCCompiler.cmake.in C$:/Program$ Files/CMake/share/cmake-3.28/Modules/CMakeRCInformation.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/CMakeSystem.cmake.in C$:/Program$ Files/CMake/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/CMakeTestCompilerCommon.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/CMakeTestRCCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/CheckIncludeFile.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/CheckLibraryExists.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Compiler/ADSP-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Compiler/ARMCC-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Compiler/ARMClang-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Compiler/AppleClang-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Compiler/Borland-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Compiler/Bruce-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Compiler/Clang-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Compiler/Clang-DetermineCompilerInternal.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Compiler/Compaq-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Compiler/Cray-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Compiler/CrayClang-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Compiler/Embarcadero-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Compiler/Fujitsu-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Compiler/GHS-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Compiler/GNU-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Compiler/GNU-FindBinUtils.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Compiler/GNU.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Compiler/HP-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Compiler/HP-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Compiler/IAR-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Compiler/Intel-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Compiler/LCC-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Compiler/MSVC-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Compiler/NVHPC-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Compiler/NVIDIA-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Compiler/OrangeC-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Compiler/PGI-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Compiler/PathScale-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Compiler/SCO-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Compiler/SDCC-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Compiler/SunPro-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Compiler/TI-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Compiler/Tasking-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Compiler/Watcom-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Compiler/XL-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Compiler/XL-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Compiler/XLClang-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Compiler/zOS-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/FindDoxygen.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/FindOpenGL.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/FindPackageMessage.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/FindThreads.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/GNUInstallDirs.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Internal/FeatureTesting.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Platform/Windows-Determine-CXX.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Platform/Windows.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/WriteBasicConfigVersionFile.cmake C$:/Users/Randon/Desktop/Projects/game_of_life/CMakeLists.txt C$:/Users/Randon/Desktop/Projects/game_of_life/libs/glfw/CMakeLists.txt C$:/Users/Randon/Desktop/Projects/game_of_life/libs/glfw/CMake/cmake_uninstall.cmake.in C$:/Users/Randon/Desktop/Projects/game_of_life/libs/glfw/CMake/glfw3.pc.in C$:/Users/Randon/Desktop/Projects/game_of_life/libs/glfw/CMake/glfw3Config.cmake.in C$:/Users/Randon/Desktop/Projects/game_of_life/libs/glfw/docs/CMakeLists.txt C$:/Users/Randon/Desktop/Projects/game_of_life/libs/glfw/src/CMakeLists.txt CMakeCache.txt CMakeFiles/3.28.0-rc3/CMakeCCompiler.cmake CMakeFiles/3.28.0-rc3/CMakeCXXCompiler.cmake CMakeFiles/3.28.0-rc3/CMakeRCCompiler.cmake CMakeFiles/3.28.0-rc3/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | C$:/Program$ Files/CMake/share/cmake-3.28/Modules/BasicConfigVersion-SameMajorVersion.cmake.in C$:/Program$ Files/CMake/share/cmake-3.28/Modules/CMakeCInformation.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/CMakeDependentOption.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/CMakePackageConfigHelpers.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/CMakeRCInformation.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/CPack.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/CPackComponent.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/CheckIncludeFile.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/CheckLibraryExists.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Compiler/GNU.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/ExternalProject/shared_internal_commands.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/FetchContent.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/FetchContent/CMakeLists.cmake.in C$:/Program$ Files/CMake/share/cmake-3.28/Modules/FindGit.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/FindOpenGL.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/FindPackageMessage.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/FindThreads.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/GNUInstallDirs.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Internal/CheckFlagCommonConfig.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Platform/Windows.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/WriteBasicConfigVersionFile.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Templates/CPackConfig.cmake.in C$:/Users/Randon/Desktop/Projects/game_of_life/CMakeLists.txt CMakeCache.txt CMakeFiles/3.28.0-rc3/CMakeCCompiler.cmake CMakeFiles/3.28.0-rc3/CMakeCXXCompiler.cmake CMakeFiles/3.28.0-rc3/CMakeRCCompiler.cmake CMakeFiles/3.28.0-rc3/CMakeSystem.cmake _deps/raylib-src/CMakeLists.txt _deps/raylib-src/CMakeOptions.txt _deps/raylib-src/cmake/AddIfFlagCompiles.cmake _deps/raylib-src/cmake/CompileDefinitions.cmake _deps/raylib-src/cmake/CompilerFlags.cmake _deps/raylib-src/cmake/EnumOption.cmake _deps/raylib-src/cmake/GlfwImport.cmake _deps/raylib-src/cmake/InstallConfigurations.cmake _deps/raylib-src/cmake/JoinPaths.cmake _deps/raylib-src/cmake/LibraryConfigurations.cmake _deps/raylib-src/cmake/LibraryPathToLinkerFlags.cmake _deps/raylib-src/cmake/PackConfigurations.cmake _deps/raylib-src/cmake/ParseConfigHeader.cmake _deps/raylib-src/cmake/PopulateConfigVariablesLocally.cmake _deps/raylib-src/cmake/Uninstall.cmake _deps/raylib-src/cmake/raylib-config-version.cmake _deps/raylib-src/raylib.pc.in _deps/raylib-src/src/CMakeLists.txt _deps/raylib-src/src/external/glfw/CMakeLists.txt _deps/raylib-src/src/external/glfw/CMake/glfw3.pc.in _deps/raylib-src/src/external/glfw/CMake/glfw3Config.cmake.in _deps/raylib-src/src/external/glfw/src/CMakeLists.txt
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/Program$ Files/CMake/share/cmake-3.28/Modules/BasicConfigVersion-SameMajorVersion.cmake.in C$:/Program$ Files/CMake/share/cmake-3.28/Modules/CMakeCCompiler.cmake.in C$:/Program$ Files/CMake/share/cmake-3.28/Modules/CMakeCCompilerABI.c C$:/Program$ Files/CMake/share/cmake-3.28/Modules/CMakeCInformation.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/CMakeCXXCompiler.cmake.in C$:/Program$ Files/CMake/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp C$:/Program$ Files/CMake/share/cmake-3.28/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/CMakeCompilerIdDetection.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/CMakeDependentOption.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompileFeatures.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/CMakeDetermineRCCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/CMakeFindBinUtils.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/CMakeNinjaFindMake.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/CMakePackageConfigHelpers.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/CMakeParseImplicitIncludeInfo.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/CMakeParseImplicitLinkInfo.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/CMakeParseLibraryArchitecture.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/CMakeRCCompiler.cmake.in C$:/Program$ Files/CMake/share/cmake-3.28/Modules/CMakeRCInformation.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/CMakeSystem.cmake.in C$:/Program$ Files/CMake/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/CMakeTestCompilerCommon.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/CMakeTestRCCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/CheckIncludeFile.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/CheckLibraryExists.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Compiler/ADSP-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Compiler/ARMCC-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Compiler/ARMClang-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Compiler/AppleClang-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Compiler/Borland-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Compiler/Bruce-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Compiler/Clang-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Compiler/Clang-DetermineCompilerInternal.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Compiler/Compaq-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Compiler/Cray-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Compiler/CrayClang-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Compiler/Embarcadero-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Compiler/Fujitsu-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Compiler/GHS-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Compiler/GNU-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Compiler/GNU-FindBinUtils.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Compiler/GNU.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Compiler/HP-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Compiler/HP-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Compiler/IAR-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Compiler/Intel-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Compiler/LCC-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Compiler/MSVC-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Compiler/NVHPC-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Compiler/NVIDIA-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Compiler/OrangeC-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Compiler/PGI-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Compiler/PathScale-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Compiler/SCO-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Compiler/SDCC-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Compiler/SunPro-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Compiler/TI-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Compiler/Tasking-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Compiler/Watcom-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Compiler/XL-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Compiler/XL-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Compiler/XLClang-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Compiler/zOS-C-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/FindDoxygen.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/FindOpenGL.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/FindPackageMessage.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/FindThreads.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/GNUInstallDirs.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Internal/FeatureTesting.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Platform/Windows-Determine-CXX.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Platform/Windows.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/WriteBasicConfigVersionFile.cmake C$:/Users/Randon/Desktop/Projects/game_of_life/CMakeLists.txt C$:/Users/Randon/Desktop/Projects/game_of_life/libs/glfw/CMakeLists.txt C$:/Users/Randon/Desktop/Projects/game_of_life/libs/glfw/CMake/cmake_uninstall.cmake.in C$:/Users/Randon/Desktop/Projects/game_of_life/libs/glfw/CMake/glfw3.pc.in C$:/Users/Randon/Desktop/Projects/game_of_life/libs/glfw/CMake/glfw3Config.cmake.in C$:/Users/Randon/Desktop/Projects/game_of_life/libs/glfw/docs/CMakeLists.txt C$:/Users/Randon/Desktop/Projects/game_of_life/libs/glfw/src/CMakeLists.txt CMakeCache.txt CMakeFiles/3.28.0-rc3/CMakeCCompiler.cmake CMakeFiles/3.28.0-rc3/CMakeCXXCompiler.cmake CMakeFiles/3.28.0-rc3/CMakeRCCompiler.cmake CMakeFiles/3.28.0-rc3/CMakeSystem.cmake: phony
+build C$:/Program$ Files/CMake/share/cmake-3.28/Modules/BasicConfigVersion-SameMajorVersion.cmake.in C$:/Program$ Files/CMake/share/cmake-3.28/Modules/CMakeCInformation.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/CMakeDependentOption.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/CMakePackageConfigHelpers.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/CMakeRCInformation.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/CPack.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/CPackComponent.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/CheckIncludeFile.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/CheckLibraryExists.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Compiler/GNU.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/ExternalProject/shared_internal_commands.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/FetchContent.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/FetchContent/CMakeLists.cmake.in C$:/Program$ Files/CMake/share/cmake-3.28/Modules/FindGit.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/FindOpenGL.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/FindPackageMessage.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/FindThreads.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/GNUInstallDirs.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Internal/CheckFlagCommonConfig.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Platform/Windows.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Modules/WriteBasicConfigVersionFile.cmake C$:/Program$ Files/CMake/share/cmake-3.28/Templates/CPackConfig.cmake.in C$:/Users/Randon/Desktop/Projects/game_of_life/CMakeLists.txt CMakeCache.txt CMakeFiles/3.28.0-rc3/CMakeCCompiler.cmake CMakeFiles/3.28.0-rc3/CMakeCXXCompiler.cmake CMakeFiles/3.28.0-rc3/CMakeRCCompiler.cmake CMakeFiles/3.28.0-rc3/CMakeSystem.cmake _deps/raylib-src/CMakeLists.txt _deps/raylib-src/CMakeOptions.txt _deps/raylib-src/cmake/AddIfFlagCompiles.cmake _deps/raylib-src/cmake/CompileDefinitions.cmake _deps/raylib-src/cmake/CompilerFlags.cmake _deps/raylib-src/cmake/EnumOption.cmake _deps/raylib-src/cmake/GlfwImport.cmake _deps/raylib-src/cmake/InstallConfigurations.cmake _deps/raylib-src/cmake/JoinPaths.cmake _deps/raylib-src/cmake/LibraryConfigurations.cmake _deps/raylib-src/cmake/LibraryPathToLinkerFlags.cmake _deps/raylib-src/cmake/PackConfigurations.cmake _deps/raylib-src/cmake/ParseConfigHeader.cmake _deps/raylib-src/cmake/PopulateConfigVariablesLocally.cmake _deps/raylib-src/cmake/Uninstall.cmake _deps/raylib-src/cmake/raylib-config-version.cmake _deps/raylib-src/raylib.pc.in _deps/raylib-src/src/CMakeLists.txt _deps/raylib-src/src/external/glfw/CMakeLists.txt _deps/raylib-src/src/external/glfw/CMake/glfw3.pc.in _deps/raylib-src/src/external/glfw/CMake/glfw3Config.cmake.in _deps/raylib-src/src/external/glfw/src/CMakeLists.txt: phony
 
 
 #############################################

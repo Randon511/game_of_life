@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/Randon/Desktop/Projects/game_of_life/build/build/cmake_install.cmake")
+  include("C:/Users/Randon/Desktop/Projects/game_of_life/build/_deps/raylib-build/cmake_install.cmake")
 
 endif()
 
