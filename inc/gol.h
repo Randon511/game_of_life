@@ -4,7 +4,7 @@
 void render_frame();
 void check_lives();
 void draw_grid();
-void draw_squares();
+void draw_cells();
 void process_game();
 
 #endif
