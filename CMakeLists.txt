@@ -20,14 +20,15 @@ include(FetchContent)
 set(FETCHCONTENT_QUIET FALSE)
 set(BUILD_EXAMPLES OFF CACHE BOOL "" FORCE)
 set(BUILD_GAMES    OFF CACHE BOOL "" FORCE)
+
 FetchContent_Declare(
     raylib
     GIT_REPOSITORY "https://github.com/raysan5/raylib.git"
     GIT_TAG "master"
     GIT_PROGRESS TRUE
 )
-
 FetchContent_MakeAvailable(raylib)
+
 
 # Add ImGui
 set(IMGUI_DIR ${PROJECT_SOURCE_DIR}/libs/imgui)
@@ -40,12 +41,25 @@ file(GLOB IMGUI_SOURCES
 add_library(imgui STATIC ${IMGUI_SOURCES})
 target_include_directories(imgui PUBLIC ${IMGUI_DIR} ${IMGUI_BACKENDS_DIR} ${RAYLIB_DIR})
 
+FetchContent_Declare(
+   rlimgui 
+    GIT_REPOSITORY "https://github.com/raylib-extras/rlImGui.git"
+    GIT_TAG "main"
+    GIT_PROGRESS TRUE
+)
+FetchContent_MakeAvailable(rlimgui)
+add_library(rlimgui STATIC
+    ${rlimgui_SOURCE_DIR}/rlImGui.cpp
+    ${rlimgui_SOURCE_DIR}/rlImGui.h
+)
+target_include_directories(rlimgui  PUBLIC ${rlimgui_SOURCE_DIR} ${raylib_SOURCE_DIR}/src ${IMGUI_DIR})
+
 # Add executable
 add_executable(GameOfLife 
     src/main.cpp
     src/gol.cpp
 )
-target_include_directories(GameOfLife PUBLIC ${LIB_DIR})
+target_include_directories(GameOfLife PRIVATE ${raylib_SOURCE_DIR} ${rlimgui_SOURCE_DIR})
 
 # Link libraries
-target_link_libraries(GameOfLife PRIVATE imgui raylib)
+target_link_libraries(GameOfLife PRIVATE imgui raylib rlimgui)

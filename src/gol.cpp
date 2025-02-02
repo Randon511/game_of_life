@@ -1,10 +1,12 @@
 #include "../inc/gol.h"
+#include "imgui.h"
 #include "raylib.h"
+#include "rlImGui.h"
 
 using namespace game;
 
 GOL::GOL()
-    : state(GameState::RUNNING),
+    : state(GameState::INIT),
       first_loop(true),
       cells{},
       prev_process_time(std::chrono::steady_clock::now())
@@ -14,7 +16,9 @@ GOL::GOL()
 void GOL::setup_game()
 {
     InitWindow(window_width, window_height, "GOL");
-    init_cells();
+    rlImGuiSetup(true);
+
+    // init_cells();
     game_running = true;
 }
 
@@ -54,6 +58,7 @@ void GOL::process_sm()
 
 void GOL::init_state_handler()
 {
+    render_frame();
 }
 
 void GOL::running_state_handler()
@@ -83,9 +88,13 @@ void GOL::render_frame()
     BeginDrawing();
     ClearBackground(dead_color);
 
+    rlImGuiBegin();
+    ImGui::ShowDemoWindow();
+
     draw_grid();
     draw_cells();
 
+    rlImGuiEnd();
     EndDrawing();
 }
 
