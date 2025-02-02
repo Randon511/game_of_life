@@ -41,7 +41,10 @@ add_library(imgui STATIC ${IMGUI_SOURCES})
 target_include_directories(imgui PUBLIC ${IMGUI_DIR} ${IMGUI_BACKENDS_DIR} ${RAYLIB_DIR})
 
 # Add executable
-add_executable(GameOfLife src/main.cpp)
+add_executable(GameOfLife 
+    src/main.cpp
+    src/gol.cpp
+)
 target_include_directories(GameOfLife PUBLIC ${LIB_DIR})
 
 # Link libraries
